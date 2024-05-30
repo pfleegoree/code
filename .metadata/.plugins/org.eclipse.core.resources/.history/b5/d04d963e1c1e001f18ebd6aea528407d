@@ -1,0 +1,31 @@
+package com.elena.lil.sbet.landon.room_web_app.models;
+
+import javax.swing.text.Position;
+
+public class StaffMember {
+	private String employeeID;
+	private String firstName;
+	private String lastName;
+	private Position position;
+	
+	public StaffMember() {
+		super();
+	}
+
+	public StaffMember(String employeeID, String firstName, String lastName, Position position) {
+		super();
+		this.employeeID = employeeID;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.position = position;
+	}
+	
+	
+
+
+	
+	
+	
+	
+
+}

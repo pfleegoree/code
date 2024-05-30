@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<title>Landon Hotel</title>
+</head>
+
+<h1>Welcome to Landon Hotel</h1>
+<a href="/rguests">Guests</a>
+<a href="/reservations">Room Reservations</a>
+
+</body>
+</html>

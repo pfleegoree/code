@@ -1,0 +1,10 @@
+package com.elena.lil.learningspring.data;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="ROOM")
+public class Room {
+
+}

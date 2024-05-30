@@ -1,0 +1,40 @@
+package com.elena.lil.learningspring.webservice;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.elena.lil.learningspring.business.ReservationService;
+import com.elena.lil.learningspring.business.RoomReservation;
+import com.elena.lil.learningspring.data.Guest;
+import com.elena.lil.learningspring.util.DateUtils;
+
+@RestController
+@RequestMapping("/api")
+public class WebserviceController {
+	private final DateUtils dateUtils;
+	private final ReservationService reservationService;
+	
+	public WebserviceController(DateUtils dateUtils, ReservationService reservationService) {
+		this.dateUtils = dateUtils;
+		this.reservationService = reservationService;
+	}
+	
+	@RequestMapping(path="/resevations", method = RequestMethod.GET)
+	public List<RoomReservation> getReservations(@RequestParam(value="date", required = false)String dateSting){
+		Date date = this.dateUtils.createDateFromDateString(dateSting);
+		return this.reservationService.getRoomReservationsForDate(date);
+	}
+	
+	@GetMapping(path="/guests", method = RequestMethod.GET)
+	public List<Guest> getGuests(){
+		
+	}
+	
+
+}

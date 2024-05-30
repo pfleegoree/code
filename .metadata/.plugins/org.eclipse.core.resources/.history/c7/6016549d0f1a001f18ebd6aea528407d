@@ -1,0 +1,2 @@
+spring.application.name=booting-web
+server.port=8000

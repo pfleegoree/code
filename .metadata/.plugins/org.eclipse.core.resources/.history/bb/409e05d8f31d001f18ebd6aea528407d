@@ -1,0 +1,10 @@
+package com.elena.lil.sbet.landon.room_web_app.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/rooms")
+public class RoomController {
+
+}

@@ -1,0 +1,5 @@
+package com.elena.lil.learningspring.data;
+
+public class Guest {
+
+}

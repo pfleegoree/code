@@ -1,0 +1,10 @@
+package com.elena.lil.sbet.landon.room_web_app.models;
+
+public class StaffMember {
+	private String employeeID;
+	private String FirstName;
+	private String lastName;
+	private String Position;
+	
+
+}

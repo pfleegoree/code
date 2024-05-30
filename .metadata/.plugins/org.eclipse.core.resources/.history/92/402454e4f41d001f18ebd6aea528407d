@@ -1,0 +1,21 @@
+package com.elena.lil.sbet.landon.room_web_app.controllers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.elena.lil.sbet.landon.room_web_app.models.Room;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/rooms")
+public class RoomController {
+	private static final List<Room> rooms = new ArrayList<>();
+	static {
+		for (int i=0; i<10; i++) {
+			rooms.add(new Room (i, "Room " i, "R"+i, info:"Q"  ));
+		}
+	}	
+	
+}

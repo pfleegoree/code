@@ -1,0 +1,8 @@
+package com.elena.lil.learningspring.webservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class WebserviceController {
+
+}
