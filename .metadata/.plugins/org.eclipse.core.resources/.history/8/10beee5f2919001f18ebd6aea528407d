@@ -1,5 +1,0 @@
-package com.elena.lil.learningspring.data;
-
-public interface RoomRepository {
-
-}

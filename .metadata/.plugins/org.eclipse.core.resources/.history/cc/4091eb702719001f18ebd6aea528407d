@@ -1,8 +1,0 @@
-package com.elena.lil.learningspring.data;
-
-import jakarta.persistence.Entity;
-
-@Entity
-public class Room {
-
-}

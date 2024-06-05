@@ -1,7 +1,0 @@
-package com.elena.lil.learningspring.data;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface RoomRepository extends CrudRepository{
-
-}
