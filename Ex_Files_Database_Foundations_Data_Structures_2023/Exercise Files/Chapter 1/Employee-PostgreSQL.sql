@@ -1,24 +1,26 @@
 -- -- Create new table with employee data in PostgreSQL
-CREATE TABLE Employee (
-    name varchar(100),
-    phone_number varchar(10),
-    cubical smallint,
-    hire_date timestamp,
-    annual_salary INTEGER
-);
 
-INSERT INTO Employee
+CREATE TABLE employee (
+    first_name      character varying(50),
+    last_name       character varying(100),
+    phone_number    character(8),
+    office_number   character(3),
+    hire_date       date,
+    annual_salary   numeric (10,2)
+);
+INSERT INTO employee
  VALUES
         (
-            'Dorean Grey', 
-            '9159999999',
+            'Dorean', 
+            'Grey',
+            '55-0123',
             '123',
-            NOW(),
-            '120000'
+           '2024-04-01',
+            45000.00
         )
 ;
 
 
-SELECT * FROM Employee;
+SELECT * FROM employee;
 
-DROP TABLE TimeExperiment;
+DROP TABLE employee;
