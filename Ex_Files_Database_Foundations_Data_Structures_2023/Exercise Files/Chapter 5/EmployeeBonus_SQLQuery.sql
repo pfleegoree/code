@@ -15,40 +15,55 @@ ADD CONSTRAINT fk_Employee_EmployeeID FOREIGN KEY (EmployeeID)
     REFERENCES Employee (EmployeeID)
 ;
 
-INSERT INTO QuarterlyBonus (QuarterEarned, AmountPaid) VALUES
-    (418,'John', 1, 300),
-   (419,'Elton', 2, 300.1),
-   (420,'Susan', 3, 300.2),
-   (421,'Josh', 4, 300.3)
+-- Remove the existing foreign key constraint
+ALTER TABLE QuarterlyBonus
+DROP CONSTRAINT fk_Employee_EmployeeID;
+
+-- Recreate the constraint with options to cascade update and cascade delete changes
+ALTER TABLE QuarterlyBonus
+ADD CONSTRAINT fk_Employee_EmployeeID FOREIGN KEY (EmployeeID)
+      REFERENCES Employee (EmployeeID)
+      ON UPDATE CASCADE
+      ON DELETE CASCADE
 ;
+
+
+INSERT INTO QuarterlyBonus (BonusAmount,  Quarter, EmployeeID) VALUES
+    (419.000, 4, 102),
+    (420.000, 2, 101)
+;
+
+DELETE FROM QuarterlyBonus WHERE BonusID = '4';
+
+SELECT * FROM QuarterlyBonus;
 
 DROP TABLE QuarterlyBonus;    
 
 CREATE TABLE Employee (
-    FirstName      varchar(50),
-    LastName       varchar(100),
-    PhoneNumber    char(8),
+    EmployeeID varchar(20) NOT NULL,
+    FirstName      varchar(50) NOT NULL,
+    LastName       varchar(100) NOT NULL,
     OfficeNumber   char(3),
     HireDate       date,
-    AnnualSalary   decimal (10,2),
-    EmployeeID INTEGER NOT NULL,
+    AnnualSalary   decimal (10,2) CONSTRAINT check_minimum_salary CHECK(AnnualSalary >100.000),
+    PhoneNumber    char(8)
     CONSTRAINT PK_Employee_EmployeeID PRIMARY KEY (EmployeeID) 
 );
 
-INSERT INTO Employee
+ALTER TABLE Employee
+ADD CONSTRAINT DefaultPhoneNumber
+DEFAULT '55-0111' FOR PhoneNumber;
+
+INSERT INTO Employee( EmployeeID, FirstName, LastName)
  VALUES
         (
+            'W2345',
             'Dorean', 
-            'Grey',
-            '55-0123',
-            '123',
-           '2024-04-01',
-            45000.00,
-            100
+            'Grey'
         )
 ;
-
 
 SELECT * FROM Employee;
 
 DROP TABLE Employee;
+DROP TABLE QuarterlyBonus;
