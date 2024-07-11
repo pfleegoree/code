@@ -45,7 +45,7 @@ CREATE TABLE Employee (
     LastName       varchar(100) NOT NULL,
     OfficeNumber   char(3),
     HireDate       date,
-    AnnualSalary   decimal (10,2) CONSTRAINT check_minimum_salary CHECK(AnnualSalary >100.000),
+    AnnualSalary   decimal (10,2) CONSTRAINT check_minimum_salary CHECK(AnnualSalary >100.00),
     PhoneNumber    char(8)
     CONSTRAINT PK_Employee_EmployeeID PRIMARY KEY (EmployeeID) 
 );
@@ -54,12 +54,15 @@ ALTER TABLE Employee
 ADD CONSTRAINT DefaultPhoneNumber
 DEFAULT '55-0111' FOR PhoneNumber;
 
-INSERT INTO Employee( EmployeeID, FirstName, LastName)
+INSERT INTO Employee
  VALUES
         (
-            'W2345',
+            'W2348',
             'Dorean', 
-            'Grey'
+            'Grey',
+            '123',
+            '2024-04-07',
+            '100.00'
         )
 ;
 
