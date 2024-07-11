@@ -1,0 +1,1 @@
+SELECT * FROM inventory.beauty_products;-- Remove all data rows one at a time (slow)DELETE FROM inventory.beauty_products;-- Remove all data rows from a table at once (fast)TRUNCATE TABLE inventory.beauty_products;
