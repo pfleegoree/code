@@ -18,5 +18,33 @@ ON order_lines.sku = products.sku;
 
 
 
+CREATE PROCEDURE sales.addCustomer
+(
+       -- Add the parameters for the stored procedure here
+    @customer_id char(5) = NULL,
+    @company nvarchar(100) = NULL
+) 
+AS
 
+BEGIN
+    -- SET NOCOUNT ON added to prevent extra result sets from
+    -- interfering with SELECT statements.
+    SET NOCOUNT ON
+
+    -- Insert statements for procedure here
+    INSERT 
+       INTO sales.customers 
+       (customer_id, 
+       company)
+       VALUES
+        (@customer_id,
+            @company
+        ) 
+        
+END
+GO
+
+EXEC sales.addCustomer
+@customer_id = 'MM123',
+@company = 'Green Day'
 
