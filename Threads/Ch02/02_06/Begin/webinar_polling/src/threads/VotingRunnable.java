@@ -5,7 +5,7 @@ package threads;
  * It will keep track of what cake designs are getting votes.
  */
 
-public class VotingRunnable { // Ch02-Step 1 - Implement class by the Runnable interface
+public class VotingRunnable implements Runnable { // Ch02-Step 1 - Implement class by the Runnable interface
 
     private Design d;
     protected boolean doStop = false; // Will be used in chapter 3 challenge
@@ -14,5 +14,12 @@ public class VotingRunnable { // Ch02-Step 1 - Implement class by the Runnable i
         this.d = d;
     }
 
+
     // Ch02-Step 2 - Override the run() method
+    @override
+    public void run(){
+        System.out.println("Voting going on for design" + d.getName());
+        d.getVotes().add(1L);
+        }
+    }
 }
