@@ -15,4 +15,8 @@ public class CountingRunnable { // Ch02-Step 3 - Implement class by the Runnable
     }
 
     // Ch02-Step 4 - Override the run() method
+    @override
+    public void run(){
+        System.out.println("Design " + d.getName() + " has " + d.getVotes().size() + " votes");
+    }
 }
