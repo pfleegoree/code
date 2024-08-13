@@ -1,6 +1,9 @@
-public class BirthdayCake extends Cake(){
+package inheritance.bakery;
+
+public class BirthdayCake extends Cake{
 private int candles;
         public BirthdayCake() {
+            flavor = "chocolate";
 
         }
 

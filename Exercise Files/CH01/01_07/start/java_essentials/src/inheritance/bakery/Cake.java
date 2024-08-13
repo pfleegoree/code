@@ -1,17 +1,20 @@
-public class Cake (){
-    super();
-    private int flavor;
+package inheritance.bakery;
+public class Cake {
+    public String flavor;
     private double price;
-    public cake(){
-        flavour = "vanilla";
-        price = 20;
+    public Cake() {
+        flavor = "vanilla";
+    }
+    public Cake(String flavor) {
+        setPrice(9.99);
+        setFlavor(flavor);
     }
 
-    public int getFlavor() {
+    public String getFlavor() {
         return flavor;
     }
 
-    public void setFlavor(int flavor) {
+    public void setFlavor(String flavour) {
         this.flavor = flavor;
     }
 
