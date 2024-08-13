@@ -33,19 +33,29 @@ public class Main {
         countingD3.start();
 
         // Ch03-Step 6 - Pause the main thread for 30 seconds
-
+        try {
+            Thread.sleep(30000);
+        } catch (InterruptedException e) {
+           e.printStackTrace;
+        }
 
         /* Ch03-Step 7 - At the end of 30 seconds all threads should be stopped.
            Set the doStop flag in runnables to do this */
+        votingRunnableD1.doStop = true;
+        votingRunnableD2.doStop = true;
+        votingRunnableD3.doStop = true;
 
+        countingRunnableD1.doStop = true;
+        countingRunnableD2.doStop = true;
+        countingRunnableD3.doStop = true;
 
-        // Ch03-Step 8 - Uncomment these print statements to print the total votes obtained by the 3 designs
-//        System.out.println("Voting has stopped for design " + d1.getName());
-//        System.out.println("Total votes for " + d1.getName() + ": " + d1.getVotes().size());
-//        System.out.println("Voting has stopped for design " + d2.getName());
-//        System.out.println("Total votes for " + d2.getName() + ": " + d2.getVotes().size());
-//        System.out.println("Voting has stopped for design " + d3.getName());
-//        System.out.println("Total votes for " + d3.getName() + ": " + d3.getVotes().size());
+         Ch03-Step 8 - Uncomment these print statements to print the total votes obtained by the 3 designs
+        System.out.println("Voting has stopped for design " + d1.getName());
+        System.out.println("Total votes for " + d1.getName() + ": " + d1.getVotes().size());
+        System.out.println("Voting has stopped for design " + d2.getName());
+        System.out.println("Total votes for " + d2.getName() + ": " + d2.getVotes().size());
+        System.out.println("Voting has stopped for design " + d3.getName());
+        System.out.println("Total votes for " + d3.getName() + ": " + d3.getVotes().size());
 
     }
 }
