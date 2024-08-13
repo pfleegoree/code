@@ -17,8 +17,15 @@ public class CountingRunnable implements Runnable {
     @Override
     public void run() {
         //Ch03-Step 5 - Surround the code in a while loop
+        While(!doStop) {
 
-        //Ch03-Step 3 - Pause the thread for 2 seconds
-        System.out.println("Design " + d.getName() + " has " + d.getVotes().size() + " votes");
+            System.out.println("Design " + d.getName() + " has " + d.getVotes().size() + " votes");
+            //Ch03-Step 3 - Pause the thread for 2 seconds
+            try {
+                Thread.sleep(2000);
+            } catch (Interrupted.Exception e) {
+                e.printStackTrace;
+            }
+        }
     }
 }

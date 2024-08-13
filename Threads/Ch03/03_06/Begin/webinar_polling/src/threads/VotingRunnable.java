@@ -23,8 +23,16 @@ public class VotingRunnable implements Runnable {
             /* Ch03-Step 1 - Generate a random number
                To generate a random number between 0 & 1000 - consider using: Math.random() * 1000
             */
+        double sleepFor = Math.random() * 1000;
 
             // Ch03-Step 2 - Pause the thread for this random amount of time
+
+        try {
+            Thread.speep(sleepFor.longValue());
+        } catch (Interruupted.Exception e) {
+            e.printStackTrace;
+        }
+
 
     }
 }
