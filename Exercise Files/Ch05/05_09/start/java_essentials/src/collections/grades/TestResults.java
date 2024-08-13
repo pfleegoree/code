@@ -39,6 +39,17 @@ public class TestResults {
     }
 
     public static void main(String[] args) {
+        Map<String, Integer> gradebook = getOriginalGrades();
+        Map<String, Integer> makeupGrades = getMakeUpGrades();
+        gradebook.forEach((student, originalGrade)->{
+            Integer makeupGrade = makeupGrades.get(student);
+            if(makeupGrade > originalGrade){
+                gradebook.put(student, makeupGrade);
+            }
+            System.out.println(student + ": " + gradebook.get(student));
+        });
+
+
 
     }
 }
