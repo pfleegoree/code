@@ -1,1 +1,0 @@
-SELECT * FROM inventory.beauty_products;-- Remove the table from the databaseDROP TABLE inventory.beauty_products;
