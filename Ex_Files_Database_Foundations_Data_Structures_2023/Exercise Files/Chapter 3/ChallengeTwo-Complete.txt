@@ -1,3 +1,0 @@
--- Add a new primary key column to an existing table in SQL ServerSELECT * FROM employees;-- One Step MethodALTER TABLE employeesADD EmployeeID INT IDENTITY(1000, 1) PRIMARY KEY;-- Two Step MethodALTER TABLE employeesADD EmployeeID INT IDENTITY(1000,1);ALTER TABLE employeesADD CONSTRAINT PK_EmployeeID PRIMARY KEY (EmployeeID);-- Test with a new employeeINSERT INTO employees (FirstName, LastName)VALUES ('Judith', 'Leonard');
-
-SELECT * FROM employees;-- For PostgreSQL, replace IDENTITY(1000,1) with:-- GENERATED ALWAYS AS IDENTITY (START WITH 1000 INCREMENT BY 1)

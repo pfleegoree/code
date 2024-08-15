@@ -1,7 +1,0 @@
--- Create the employees table on PostgreSQL
-CREATE TABLE employees (    first_name      character varying (50),    last_name       character varying (100),    phone_number    character (8),    office_number   character (3),    hire_date       date,    annual_salary   numeric (10,2));INSERT INTO employeesVALUES ('Adam', 'Wilbert', '555-0123', '201', '2020-10-15', 45000.00);SELECT * FROM employees;
-
-
-
--- Create the employees table on SQL Server
-CREATE TABLE Employees (    FirstName      varchar (50),    LastName       varchar (100),    PhoneNumber    char (8),    OfficeNumber   char (3),    HireDate       date,    AnnualSalary   decimal (10,2));INSERT INTO EmployeesVALUES ('Adam', 'Wilbert', '555-0123', '201', '2020-10-15', 45000.00);SELECT * FROM Employees;

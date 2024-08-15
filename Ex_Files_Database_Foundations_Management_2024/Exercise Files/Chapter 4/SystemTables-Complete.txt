@@ -1,1 +1,0 @@
--- SQL Server documentation: https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/catalog-views-transact-sql-- View SQL Server databasesSELECT * FROM sys.databases;-- PostgreSQL documentation: https://www.postgresql.org/docs/current/catalogs.html-- View PostgreSQL sever databasesSELECT * FROM pg_database;
