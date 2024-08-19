@@ -4,7 +4,7 @@
 SELECT LocationID
         , Shelf
         , Bin
-        , CONCAT(LocationID,'-',Shelf,'-', Bin) AS Result
+        , CONCAT_WS('_', LocationID,Shelf, Bin) AS 'Combined Location'
 FROM Production.ProductInventory 
 
 
@@ -55,8 +55,9 @@ SELECT * FROM Sales.SalesPerson
 
 SELECT TOP 3
 BusinessEntityID
+,SalesLastYear
 ,SalesYTD
-,NEWID() AS Selected
+,IIF(SalesYTD>SalesLastYear, 'Increased', 'Decreased') AS Status
 FROM
 Sales.SalesPerson
 ORDER BY NEWID()
