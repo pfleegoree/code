@@ -11,12 +11,18 @@ GROUP BY ProductCategory.Name;
 
 -- Create a pivot table version of the above results
 
-SELECT Accessories, Bikes, Clothing, Components
-FROM (SELECT ProductCategory.Name
-    , Product.ProductID 
+SELECT 'Number of Products' AS [Category Name]
+        ,Accessories
+        , Bikes
+        , Clothing
+        , Components
+FROM 
+(SELECT ProductCategory.Name [Category Name]
+    , Product.ProductID AS [Product ID]
 FROM Production.ProductCategory
     INNER JOIN Production.ProductSubcategory
         ON ProductCategory.ProductCategoryID = ProductSubcategory.ProductCategoryID
     INNER JOIN Production.Product
-        ON ProductSubcategory.ProductSubcategoryID = Product.ProductSubcategoryID) AS SourceData
- PIVOT (COUNT(Product.ProductID) FOR ProductCategory.Name IN (Accessories, Bikes, Clothing, Components))  AS PivotTable;    
+        ON ProductSubcategory.ProductSubcategoryID = Product.ProductSubcategoryID
+) AS SourceData
+ PIVOT (COUNT([Product ID]) FOR [Category Name] IN (Accessories, Bikes, Clothing, Components))  AS PivotTable;    
