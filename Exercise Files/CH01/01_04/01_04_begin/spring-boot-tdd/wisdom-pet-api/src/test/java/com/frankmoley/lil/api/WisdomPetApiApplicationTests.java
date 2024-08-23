@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class WisdomPetApiApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void getCustomer() {
 	}
 
 }
