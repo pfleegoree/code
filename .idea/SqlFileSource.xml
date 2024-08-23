@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlFileSource">
+    <option name="sources">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/database-tool/602d7051-0986-4b7b-891b-6aaae72b071a/console.sql" value="602d7051-0986-4b7b-891b-6aaae72b071a" />
+        <entry key="$PROJECT_DIR$/Exercise Files/CH01/01_03/01_03_begin/spring-boot-tdd/bin/data.sql" value="602d7051-0986-4b7b-891b-6aaae72b071a" />
+        <entry key="$PROJECT_DIR$/Exercise Files/CH01/01_03/01_03_begin/spring-boot-tdd/bin/postgres-data.sql" value="602d7051-0986-4b7b-891b-6aaae72b071a" />
+        <entry key="$PROJECT_DIR$/Exercise Files/CH01/01_03/01_03_begin/spring-boot-tdd/bin/schema.sql" value="602d7051-0986-4b7b-891b-6aaae72b071a" />
+      </map>
+    </option>
+  </component>
+</project>
