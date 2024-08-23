@@ -1,4 +1,4 @@
-package java.com.frankmoley.lil.api.web.controller;
+package com.frankmoley.lil.api.web.controller;
 
 import com.frankmoley.lil.api.service.CustomerService;
 import com.frankmoley.lil.api.web.error.BadRequestException;
