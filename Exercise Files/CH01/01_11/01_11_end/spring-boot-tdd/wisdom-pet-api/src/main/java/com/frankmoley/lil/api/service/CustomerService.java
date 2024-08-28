@@ -80,7 +80,7 @@ public class CustomerService {
     if(createId){
       id = UUID.randomUUID();
     }else{
-      id = ControllerUtils.translateStringToUUID(customer.getCustomerId());
+      id = ControllerUtils.translateStringToUUID(customer.getCustomerId())
     }
     return new CustomerEntity(id, customer.getFirstName(), customer.getLastName(),
         customer.getEmailAddress(), customer.getPhoneNumber(), customer.getAddress());
