@@ -34,6 +34,7 @@ public class TourRatingController {
     }
 
 
+
     /**
      * Create a Tour Rating.
      *
