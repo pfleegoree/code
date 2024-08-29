@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="explorecali (3)" />
         <module name="explorecali (2)" />
         <module name="explorecali (1)" />
         <module name="explorecali" />
@@ -22,6 +23,7 @@
       <module name="explorecali" options="-parameters" />
       <module name="explorecali (1)" options="-parameters" />
       <module name="explorecali (2)" options="-parameters" />
+      <module name="explorecali (3)" options="-parameters" />
       <module name="wisdom-pet-api" options="-parameters" />
       <module name="wisdom-pet-api (1)" options="-parameters" />
       <module name="wisdom-pet-api (2)" options="-parameters" />
