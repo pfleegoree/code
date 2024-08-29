@@ -38,9 +38,12 @@ public class TourService {
     public Tour createTour(String title, String description, String blurb, Integer price,
                            String duration, String bullets,
                            String keywords, String tourPackageName, Difficulty difficulty, Region region ) {
-        TourPackage tourPackage = null;
+        TourPackage tourPackage = tourPackageRepository.findByID(tourPackageName)
+                .orElseThrow(()-> new RuntimeException("Tour package does not esxist" + tourPackageName));
 
-        return new Tour(title, description,blurb, price, duration, bullets, keywords, tourPackage, difficulty, region);
+        return tourPackageRepository.save(new Tour(title, description,blurb
+                , price, duration, bullets, keywords, tourPackage, difficulty, region))
+                ;
     }
 
     /**
@@ -49,7 +52,7 @@ public class TourService {
      * @return the total.
      */
     public long total() {
-        return 0;
+        return tourPackageRepository.count();
     }
 
 }
