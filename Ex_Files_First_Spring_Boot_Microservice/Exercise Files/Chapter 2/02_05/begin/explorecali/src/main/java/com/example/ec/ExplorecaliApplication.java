@@ -18,7 +18,7 @@ import static com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.ANY;
 import static com.fasterxml.jackson.annotation.PropertyAccessor.FIELD;
 
 @SpringBootApplication
-public class ExplorecaliApplication  {
+public class ExplorecaliApplication  implements CommandLineRunner{
 
     @Autowired
     private TourPackageService tourPackageService;
@@ -29,7 +29,6 @@ public class ExplorecaliApplication  {
     public static void main(String[] args) {
         SpringApplication.run(ExplorecaliApplication.class, args);
     }
-
 
     private void loadToursAtStartup() throws IOException {
         //Create the Tour Packages

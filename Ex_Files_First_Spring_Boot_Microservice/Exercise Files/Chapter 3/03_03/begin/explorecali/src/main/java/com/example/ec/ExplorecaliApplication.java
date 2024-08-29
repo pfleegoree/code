@@ -12,7 +12,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
 
@@ -21,6 +20,7 @@ import static com.fasterxml.jackson.annotation.PropertyAccessor.FIELD;
 
 @SpringBootApplication
 public class ExplorecaliApplication implements CommandLineRunner {
+
 
     @Value("${ec.importfile}")
     private String importFile;
@@ -80,8 +80,9 @@ public class ExplorecaliApplication implements CommandLineRunner {
                 bullets, keywords, difficulty, region;
         //reader
         static List<TourFromFile> read(String fileToImport) throws IOException {
-            return new ObjectMapper().setVisibility(FIELD, ANY).
-                    readValue(new FileInputStream(fileToImport), new TypeReference<List<TourFromFile>>() {});
+            return new ObjectMapper().setVisibility(FIELD, ANY)
+                    .readValue(ExplorecaliApplication.class.getResourceAsStream("/" + fileToImport),
+                            new TypeReference<List<TourFromFile>>() {});
         }
         protected TourFromFile(){}
 

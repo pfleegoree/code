@@ -6,14 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wisdom-pet-api (2)" />
-        <module name="wisdom-pet-api" />
-        <module name="wisdom-pet-api (1)" />
+        <module name="explorecali (2)" />
+        <module name="explorecali (1)" />
+        <module name="explorecali" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wisdom-pet-api" target="17" />
+      <module name="wisdom-pet-api (1)" target="17" />
+      <module name="wisdom-pet-api (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="explorecali" options="-parameters" />
+      <module name="explorecali (1)" options="-parameters" />
+      <module name="explorecali (2)" options="-parameters" />
       <module name="wisdom-pet-api" options="-parameters" />
       <module name="wisdom-pet-api (1)" options="-parameters" />
       <module name="wisdom-pet-api (2)" options="-parameters" />
