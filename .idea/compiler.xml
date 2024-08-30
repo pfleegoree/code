@@ -13,6 +13,7 @@
         <module name="explorecali (5)" />
         <module name="explorecali (4)" />
         <module name="explorecali" />
+        <module name="spring-framework-in-depth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
