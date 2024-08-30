@@ -9,6 +9,9 @@
         <module name="explorecali (3)" />
         <module name="explorecali (2)" />
         <module name="explorecali (1)" />
+        <module name="explorecali (6)" />
+        <module name="explorecali (5)" />
+        <module name="explorecali (4)" />
         <module name="explorecali" />
       </profile>
     </annotationProcessing>
@@ -24,6 +27,9 @@
       <module name="explorecali (1)" options="-parameters" />
       <module name="explorecali (2)" options="-parameters" />
       <module name="explorecali (3)" options="-parameters" />
+      <module name="explorecali (4)" options="-parameters" />
+      <module name="explorecali (5)" options="-parameters" />
+      <module name="explorecali (6)" options="-parameters" />
       <module name="wisdom-pet-api" options="-parameters" />
       <module name="wisdom-pet-api (1)" options="-parameters" />
       <module name="wisdom-pet-api (2)" options="-parameters" />

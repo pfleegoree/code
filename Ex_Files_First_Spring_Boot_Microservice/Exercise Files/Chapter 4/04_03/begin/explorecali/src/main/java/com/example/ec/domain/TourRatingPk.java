@@ -18,9 +18,6 @@ public class TourRatingPk implements Serializable {
     @Column(insertable = false, updatable = false,nullable = false)
     private Integer customerId;
 
-    public TourRatingPk() {
-    }
-
     /**
      * Fully initialize a Tour Rating Pk
      *
