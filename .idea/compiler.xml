@@ -13,6 +13,7 @@
         <module name="explorecali (5)" />
         <module name="explorecali (4)" />
         <module name="explorecali" />
+        <module name="spring-demo (1)" />
         <module name="spring-framework-in-depth" />
         <module name="spring-demo" />
       </profile>
@@ -33,6 +34,7 @@
       <module name="explorecali (5)" options="-parameters" />
       <module name="explorecali (6)" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
+      <module name="spring-demo (1)" options="-parameters" />
       <module name="wisdom-pet-api" options="-parameters" />
       <module name="wisdom-pet-api (1)" options="-parameters" />
       <module name="wisdom-pet-api (2)" options="-parameters" />

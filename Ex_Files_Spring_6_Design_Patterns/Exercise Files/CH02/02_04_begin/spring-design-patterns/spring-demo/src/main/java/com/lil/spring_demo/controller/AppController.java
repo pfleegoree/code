@@ -1,9 +1,11 @@
 package com.lil.spring_demo.controller;
 
+import com.lil.spring_demo.builder.Contact;
 import com.lil.spring_demo.factory.Pet;
 import com.lil.spring_demo.factory.PetFactory;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -21,5 +23,12 @@ public class AppController {
     pet.setName(name);
     pet.feed();
     return pet;
+  }
+  @PostMapping("contact")
+  public Contact createContact(@RequestParam(required = false)String firstName,
+                               @RequestParam(required = false) String lastName,
+                               @RequestParam(required = false) String emailAddress){
+    return Contact.ContactBuilder.getInstance().setFirstName(firstName)
+            .setLastName(lastName).setEmailAddress(emailAddress).build();
   }
 }
