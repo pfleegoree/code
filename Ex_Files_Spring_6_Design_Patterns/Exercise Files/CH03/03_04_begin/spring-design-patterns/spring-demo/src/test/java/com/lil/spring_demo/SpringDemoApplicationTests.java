@@ -4,6 +4,9 @@ import com.lil.spring_demo.adapter.Apple;
 import com.lil.spring_demo.adapter.AppleAdapter;
 import com.lil.spring_demo.adapter.MoroOrange;
 import com.lil.spring_demo.adapter.Orange;
+import com.lil.spring_demo.decorator.Pepperoni;
+import com.lil.spring_demo.decorator.Pizza;
+import com.lil.spring_demo.decorator.ThickCrustPizza;
 import com.lil.spring_demo.prototype.NotPrototype;
 import com.lil.spring_demo.prototype.Prototype;
 import com.lil.spring_demo.singleton.SingletonA;
@@ -59,5 +62,20 @@ class SpringDemoApplicationTests {
 		Apple apple = new AppleAdapter(orange);
 		System.out.println(apple.getVariety());
 		apple.eat();
+	}
+	@Test
+	void testDecorator(){
+		Pizza pizza = new ThickCrustPizza();
+		System.out.println(pizza.getCost());
+		System.out.println(pizza.getDescription());
+
+		Pepperoni pepperoniPizza = new Pepperoni(pizza);
+		System.out.println(pepperoniPizza.getCost());
+		System.out.println(pepperoniPizza.getDescription());
+
+		Pepperoni doublePepperoniPizza = new Pepperoni(pepperoniPizza);
+		System.out.println(doublePepperoniPizza.getCost());
+		System.out.println(doublePepperoniPizza.getDescription());
+
 	}
 }

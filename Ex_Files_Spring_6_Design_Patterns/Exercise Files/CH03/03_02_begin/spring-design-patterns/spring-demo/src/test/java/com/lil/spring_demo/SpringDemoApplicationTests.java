@@ -1,5 +1,9 @@
 package com.lil.spring_demo;
 
+import com.lil.spring_demo.adapter.Apple;
+import com.lil.spring_demo.adapter.AppleAdapter;
+import com.lil.spring_demo.adapter.MoroOrange;
+import com.lil.spring_demo.adapter.Orange;
 import com.lil.spring_demo.prototype.NotPrototype;
 import com.lil.spring_demo.prototype.Prototype;
 import com.lil.spring_demo.singleton.SingletonA;
@@ -47,5 +51,14 @@ class SpringDemoApplicationTests {
 	public void testPrototype(){
 		Assertions.assertSame(notProtoA, notProtoB);
 		Assertions.assertNotSame(protoA, protoB);
+	}
+
+	@Test
+	public void testAdapter(){
+		Orange orange = new MoroOrange();
+		Apple apple = new AppleAdapter(orange);
+		System.out.println(apple.getVariety());
+		apple.eat();
+
 	}
 }
