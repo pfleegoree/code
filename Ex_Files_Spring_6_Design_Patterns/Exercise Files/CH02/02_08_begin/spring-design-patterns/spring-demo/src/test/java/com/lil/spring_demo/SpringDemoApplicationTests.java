@@ -1,5 +1,7 @@
 package com.lil.spring_demo;
 
+import com.lil.spring_demo.prototype.NotPrototype;
+import com.lil.spring_demo.prototype.Prototype;
 import com.lil.spring_demo.singleton.SingletonA;
 import com.lil.spring_demo.singleton.SingletonB;
 import org.junit.jupiter.api.Assertions;
@@ -31,4 +33,21 @@ class SpringDemoApplicationTests {
 		Assertions.assertSame(singletonB1, singletonB2);
 
 	}
+	@Autowired
+	Prototype protoA;
+	@Autowired
+	Prototype protoB;
+	@Autowired
+	NotPrototype notProtoA;
+	@Autowired
+	NotPrototype notProtoB;
+
+	@Test
+	public void testPrototype(){
+		Assertions.assertSame(notProtoA, notProtoB);
+		Assertions.assertNotSame(protoA, protoB);
+	}
+
+
+
 }
