@@ -9,6 +9,7 @@ import com.lil.spring_demo.decorator.Pizza;
 import com.lil.spring_demo.decorator.ThickCrustPizza;
 import com.lil.spring_demo.prototype.NotPrototype;
 import com.lil.spring_demo.prototype.Prototype;
+import com.lil.spring_demo.repository.PresidentRepository;
 import com.lil.spring_demo.singleton.SingletonA;
 import com.lil.spring_demo.singleton.SingletonB;
 import org.junit.jupiter.api.Assertions;
@@ -78,4 +79,13 @@ class SpringDemoApplicationTests {
 		System.out.println(doublePepperoniPizza.getCost());
 		System.out.println(doublePepperoniPizza.getDescription());
 	}
+	@Autowired
+	PresidentRepository presidentRepository;
+
+	@Test
+	void testRepository(){
+		System.out.println(this.presidentRepository.findById(1L));
+	}
+
+
 }
