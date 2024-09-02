@@ -17,6 +17,15 @@
         <module name="spring-framework-in-depth" />
         <module name="spring-demo (2)" />
       </profile>
+      <profile name="Annotation profile for landon-hotel" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar" />
+        </processorPath>
+        <module name="landon-hotel (1)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="explorecali" target="13" />
@@ -41,6 +50,7 @@
       <module name="explorecali (5)" options="-parameters" />
       <module name="explorecali (6)" options="-parameters" />
       <module name="landon-hotel" options="-parameters" />
+      <module name="landon-hotel (1)" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-demo (1)" options="-parameters" />
       <module name="spring-demo (2)" options="-parameters" />
