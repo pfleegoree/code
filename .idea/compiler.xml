@@ -10,21 +10,22 @@
         <module name="spring-demo (5)" />
         <module name="spring-demo (6)" />
         <module name="spring-demo" />
-        <module name="explorecali (3)" />
-        <module name="explorecali (2)" />
-        <module name="explorecali (1)" />
-        <module name="explorecali (6)" />
-        <module name="explorecali (5)" />
-        <module name="explorecali (4)" />
+        <module name="landon-hotel" />
         <module name="spring-demo (3)" />
         <module name="spring-demo (4)" />
-        <module name="explorecali" />
         <module name="spring-demo (1)" />
         <module name="spring-framework-in-depth" />
         <module name="spring-demo (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="explorecali" target="13" />
+      <module name="explorecali (1)" target="13" />
+      <module name="explorecali (2)" target="13" />
+      <module name="explorecali (3)" target="13" />
+      <module name="explorecali (4)" target="13" />
+      <module name="explorecali (5)" target="13" />
+      <module name="explorecali (6)" target="13" />
       <module name="wisdom-pet-api" target="17" />
       <module name="wisdom-pet-api (1)" target="17" />
       <module name="wisdom-pet-api (2)" target="17" />
@@ -39,6 +40,7 @@
       <module name="explorecali (4)" options="-parameters" />
       <module name="explorecali (5)" options="-parameters" />
       <module name="explorecali (6)" options="-parameters" />
+      <module name="landon-hotel" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-demo (1)" options="-parameters" />
       <module name="spring-demo (2)" options="-parameters" />

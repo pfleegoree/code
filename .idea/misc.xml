@@ -26,10 +26,11 @@
         <option value="$PROJECT_DIR$/Ex_Files_Spring_6_Design_Patterns/Exercise Files/CH03/03_04_begin/spring-design-patterns/spring-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Ex_Files_Spring_6_Design_Patterns/Exercise Files/CH04/04_02_begin/spring-design-patterns/spring-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Ex_Files_Spring_6_Design_Patterns/Exercise Files/CH04/04_05_begin/spring-design-patterns/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/01_04_begin/landon-hotel/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
