@@ -22,7 +22,7 @@ public class RoomReservationService {
   private final ReservationRepository reservationRepository;
 
   public RoomReservationService(GuestRepository guestRepository, RoomRepository roomRepository,
-      ReservationRepository reservationRepository) {
+                                ReservationRepository reservationRepository) {
     this.guestRepository = guestRepository;
     this.roomRepository = roomRepository;
     this.reservationRepository = reservationRepository;
@@ -50,9 +50,9 @@ public class RoomReservationService {
       roomReservation.setReservationId(reservation.getId());
       roomReservation.setReservationDate(reservation.getReservationDate().toString());
       Optional<Guest> guest = this.guestRepository.findById(reservation.getGuestId());
-      roomReservation.setGuestId(guest.get().getId());
-      roomReservation.setFirstName(guest.get().getFirstName());
-      roomReservation.setLastName(guest.get().getLastName());
+      roomReservation.setGuestId(guest.orElseThrow().getId());
+      roomReservation.setFirstName(guest.orElseThrow().getFirstName());
+      roomReservation.setLastName(guest.orElseThrow().getLastName());
     });
     return roomReservations.values().stream().toList();
   }

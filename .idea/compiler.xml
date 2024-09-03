@@ -14,7 +14,6 @@
         <module name="landon-hotel (1)" />
         <module name="spring-demo" />
         <module name="landon-hotel (5)" />
-        <module name="landon-hotel" />
         <module name="spring-demo (3)" />
         <module name="spring-demo (4)" />
         <module name="spring-demo (1)" />
@@ -37,18 +36,10 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
         </processorPath>
+        <module name="landon-hotel (7)" />
+        <module name="landon-hotel (6)" />
         <module name="landon-hotel (3)" />
         <module name="landon-hotel (4)" />
-      </profile>
-      <profile name="Annotation profile for landon-hotel (6)" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
-        </processorPath>
-        <module name="landon-hotel (6)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -59,6 +50,7 @@
       <module name="explorecali (4)" target="13" />
       <module name="explorecali (5)" target="13" />
       <module name="explorecali (6)" target="13" />
+      <module name="landon-hotel" target="20" />
       <module name="wisdom-pet-api" target="17" />
       <module name="wisdom-pet-api (1)" target="17" />
       <module name="wisdom-pet-api (2)" target="17" />
@@ -80,6 +72,7 @@
       <module name="landon-hotel (4)" options="-parameters" />
       <module name="landon-hotel (5)" options="-parameters" />
       <module name="landon-hotel (6)" options="-parameters" />
+      <module name="landon-hotel (7)" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-demo (1)" options="-parameters" />
       <module name="spring-demo (2)" options="-parameters" />

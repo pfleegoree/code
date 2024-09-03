@@ -26,3 +26,4 @@ public class Room {
   @Column(name="bed_info")
   private String bedInfo;
 }
+
