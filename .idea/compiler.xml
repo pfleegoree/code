@@ -2,14 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo (7)" />
+        <module name="spring-demo (8)" />
         <module name="spring-demo (5)" />
         <module name="spring-demo (6)" />
+        <module name="landon-hotel (1)" />
         <module name="spring-demo" />
+        <module name="landon-hotel (5)" />
         <module name="landon-hotel" />
         <module name="spring-demo (3)" />
         <module name="spring-demo (4)" />
@@ -17,14 +21,34 @@
         <module name="spring-framework-in-depth" />
         <module name="spring-demo (2)" />
       </profile>
+      <profile name="Annotation profile for landon-hotel (2)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+        </processorPath>
+        <module name="landon-hotel (2)" />
+      </profile>
       <profile name="Annotation profile for landon-hotel" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
         </processorPath>
-        <module name="landon-hotel (1)" />
+        <module name="landon-hotel (3)" />
+        <module name="landon-hotel (4)" />
+      </profile>
+      <profile name="Annotation profile for landon-hotel (6)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/edge-SNAPSHOT/lombok-edge-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="landon-hotel (6)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +75,11 @@
       <module name="explorecali (6)" options="-parameters" />
       <module name="landon-hotel" options="-parameters" />
       <module name="landon-hotel (1)" options="-parameters" />
+      <module name="landon-hotel (2)" options="-parameters" />
+      <module name="landon-hotel (3)" options="-parameters" />
+      <module name="landon-hotel (4)" options="-parameters" />
+      <module name="landon-hotel (5)" options="-parameters" />
+      <module name="landon-hotel (6)" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-demo (1)" options="-parameters" />
       <module name="spring-demo (2)" options="-parameters" />
@@ -59,6 +88,7 @@
       <module name="spring-demo (5)" options="-parameters" />
       <module name="spring-demo (6)" options="-parameters" />
       <module name="spring-demo (7)" options="-parameters" />
+      <module name="spring-demo (8)" options="-parameters" />
       <module name="wisdom-pet-api" options="-parameters" />
       <module name="wisdom-pet-api (1)" options="-parameters" />
       <module name="wisdom-pet-api (2)" options="-parameters" />
