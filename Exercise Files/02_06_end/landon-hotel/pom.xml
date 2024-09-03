@@ -15,7 +15,9 @@
   <name>landon-hotel</name>
   <description>landon-hotel</description>
   <properties>
-    <java.version>20</java.version>
+    <java.version>21</java.version>
+    <lombok.version>1.18.30</lombok.version>
+    <lombok.plugin.version>1.18.20.0</lombok.plugin.version>
   </properties>
   <dependencies>
     <dependency>
@@ -41,11 +43,28 @@
     </dependency>
   </dependencies>
 
+
   <build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>21</source>
+          <target>21</target>
+          <enablePreview>true</enablePreview>
+          <annotationProcessorPaths>
+            <path>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+              <version>edge-SNAPSHOT</version>
+            </path>
+          </annotationProcessorPaths>
+        </configuration>
       </plugin>
     </plugins>
   </build>
