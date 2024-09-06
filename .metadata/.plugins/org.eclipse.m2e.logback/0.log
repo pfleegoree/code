@@ -9867,3 +9867,310 @@ org.eclipse.core.runtime.CoreException: Launch configuration RoomClrApplication 
 2024-09-05 16:17:33,218 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/elena/code/booting-web/src/test/resources
 2024-09-05 16:20:44,179 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-09-05 16:38:06,747 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-05 16:51:25,042 [Worker-32: Launching MarsRoverApi - MarsRoverApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 16:51:25,138 [Worker-32: Launching MarsRoverApi - MarsRoverApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 16:51:25,148 [Worker-32: Launching MarsRoverApi - MarsRoverApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/elena/code/MarsRoverApi/src/test/resources
+2024-09-05 16:51:27,214 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 16:51:27,226 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 16:51:27,235 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/elena/code/booting-web/src/test/resources
+2024-09-05 18:49:02,511 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [1271])
+2024-09-05 18:49:02,520 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/aopalliance-1.0.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/guice-5.1.0.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/httpclient-4.5.14.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/httpcore-4.4.16.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/jansi-2.4.1.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/jcl-over-slf4j-1.7.36.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-artifact-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-builder-support-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-compat-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-core-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-embedder-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-model-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-model-builder-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-plugin-api-3.9.7.jar
+2024-09-05 18:49:02,521 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-repository-metadata-3.9.7.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-api-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-connector-basic-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-impl-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-named-locks-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-provider-3.9.7.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-spi-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-file-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-http-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-wagon-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-util-1.9.20.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-settings-3.9.7.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-settings-builder-3.9.7.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-shared-utils-3.4.2.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-build-api-0.0.7.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-build-api-1.2.0.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-cipher-2.0.jar
+2024-09-05 18:49:02,522 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-classworlds-2.8.0.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-component-annotations-2.1.0.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-interpolation-1.27.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-sec-dispatcher-2.0.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-utils-3.5.1.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-file-3.5.3.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-http-3.5.3.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-http-shared-3.5.3.jar
+2024-09-05 18:49:02,523 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-provider-api-3.5.3.jar
+2024-09-05 18:49:02,527 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [1051])
+2024-09-05 18:49:02,527 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/com.google.guava_33.2.0.jre.jar
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1454])
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/slf4j.api_2.0.16.jar
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [32])
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [1056])
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/javax.annotation_1.3.5.v20200909-1856.jar
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [1058])
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.cli_1.8.0.jar
+2024-09-05 18:49:02,528 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2024-09-05 18:49:02,529 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.commons-codec_1.16.0.jar
+2024-09-05 18:49:02,529 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [86])
+2024-09-05 18:49:02,530 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.lang3_3.14.0.jar
+2024-09-05 18:49:02,530 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [15])
+2024-09-05 18:49:02,530 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-09-05 18:49:02,539 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/elena/code/MarsRoverApi":
+2024-09-05 18:49:02,541 [Worker-53: Launching Executing install in _Users_elena_code_MarsRoverApi] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2024-09-05 18:54:01,295 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-09-05 19:08:19,630 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:08:19,639 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:08:19,652 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:08:58,811 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:08:58,822 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:08:58,834 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:10:18,828 [Worker-61: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+org.eclipse.core.runtime.CoreException: Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1867)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-09-05 19:10:18,894 [Worker-61: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+org.eclipse.core.runtime.CoreException: Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1867)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-09-05 19:10:18,904 [Worker-61: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+org.eclipse.core.runtime.CoreException: Launch configuration MarsRoverApiApplication references non-existing project MarsRoverApi.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1867)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-09-05 19:11:51,712 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-05 19:11:52,774 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:11:52,795 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:11:52,803 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:11:53,435 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:11:53,450 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:11:53,456 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:11:53,893 [Worker-61: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-05 19:13:55,235 [Worker-72: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-05 19:13:56,089 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3.pom
+2024-09-05 19:13:56,107 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3.pom
+2024-09-05 19:13:56,197 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3.pom
+2024-09-05 19:13:56,201 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3.pom
+2024-09-05 19:13:56,265 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.pom
+2024-09-05 19:13:56,287 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.pom
+2024-09-05 19:13:56,350 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.17.2/jackson-base-2.17.2.pom
+2024-09-05 19:13:56,366 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.17.2/jackson-base-2.17.2.pom
+2024-09-05 19:13:56,430 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.pom
+2024-09-05 19:13:56,432 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.pom
+2024-09-05 19:13:56,495 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.pom
+2024-09-05 19:13:56,503 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.pom
+2024-09-05 19:13:56,569 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.pom
+2024-09-05 19:13:56,571 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.pom
+2024-09-05 19:13:56,624 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.17.2/jackson-modules-java8-2.17.2.pom
+2024-09-05 19:13:56,626 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.17.2/jackson-modules-java8-2.17.2.pom
+2024-09-05 19:13:56,695 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.pom
+2024-09-05 19:13:56,697 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.pom
+2024-09-05 19:13:56,775 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.pom
+2024-09-05 19:13:56,781 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.pom
+2024-09-05 19:13:56,845 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3.pom
+2024-09-05 19:13:56,848 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3.pom
+2024-09-05 19:13:56,914 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.pom
+2024-09-05 19:13:56,915 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.pom
+2024-09-05 19:13:56,991 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28.pom
+2024-09-05 19:13:56,993 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28.pom
+2024-09-05 19:13:57,062 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28.pom
+2024-09-05 19:13:57,065 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28.pom
+2024-09-05 19:13:57,130 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12.pom
+2024-09-05 19:13:57,134 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12.pom
+2024-09-05 19:13:57,243 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3.jar
+2024-09-05 19:13:57,245 [Worker-72: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3.jar
+2024-09-05 19:13:57,318 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar
+2024-09-05 19:13:57,460 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar
+2024-09-05 19:13:57,466 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3.jar
+2024-09-05 19:13:57,466 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar
+2024-09-05 19:13:57,466 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar
+2024-09-05 19:13:57,469 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3.jar
+2024-09-05 19:13:57,476 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar
+2024-09-05 19:13:57,498 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar
+2024-09-05 19:13:57,519 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar
+2024-09-05 19:13:57,519 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar
+2024-09-05 19:13:57,528 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar
+2024-09-05 19:13:57,528 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar
+2024-09-05 19:13:57,534 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar
+2024-09-05 19:13:57,547 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3.jar
+2024-09-05 19:13:57,549 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3.jar
+2024-09-05 19:13:57,573 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.jar
+2024-09-05 19:13:57,578 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28.jar
+2024-09-05 19:13:57,584 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28.jar
+2024-09-05 19:13:57,596 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12.jar
+2024-09-05 19:13:57,599 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28.jar
+2024-09-05 19:13:57,677 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28.jar
+2024-09-05 19:13:57,737 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar
+2024-09-05 19:13:57,789 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12.jar
+2024-09-05 19:13:57,907 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.jar
+2024-09-05 19:13:58,327 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:13:58,327 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:13:58,335 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:13:59,235 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3-sources.jar
+2024-09-05 19:13:59,240 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3-sources.jar
+2024-09-05 19:13:59,251 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:3.3.3
+2024-09-05 19:13:59,421 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3-sources.jar
+2024-09-05 19:13:59,422 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3-sources.jar
+2024-09-05 19:13:59,424 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:3.3.3
+2024-09-05 19:13:59,692 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2-sources.jar
+2024-09-05 19:13:59,953 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2-sources.jar
+2024-09-05 19:13:59,956 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.17.2
+2024-09-05 19:14:00,120 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2-sources.jar
+2024-09-05 19:14:00,188 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2-sources.jar
+2024-09-05 19:14:00,191 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.17.2
+2024-09-05 19:14:00,345 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2-sources.jar
+2024-09-05 19:14:00,575 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2-sources.jar
+2024-09-05 19:14:00,581 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.17.2
+2024-09-05 19:14:00,749 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2-sources.jar
+2024-09-05 19:14:00,764 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2-sources.jar
+2024-09-05 19:14:00,767 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.2
+2024-09-05 19:14:00,921 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2-sources.jar
+2024-09-05 19:14:00,983 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2-sources.jar
+2024-09-05 19:14:00,987 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2
+2024-09-05 19:14:01,172 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2-sources.jar
+2024-09-05 19:14:01,176 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2-sources.jar
+2024-09-05 19:14:01,184 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.2
+2024-09-05 19:14:01,360 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3-sources.jar
+2024-09-05 19:14:01,374 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3-sources.jar
+2024-09-05 19:14:01,381 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:3.3.3
+2024-09-05 19:14:01,550 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28-sources.jar
+2024-09-05 19:14:01,898 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28-sources.jar
+2024-09-05 19:14:01,899 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:10.1.28
+2024-09-05 19:14:02,069 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28-sources.jar
+2024-09-05 19:14:02,173 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28-sources.jar
+2024-09-05 19:14:02,177 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:10.1.28
+2024-09-05 19:14:02,339 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28-sources.jar
+2024-09-05 19:14:02,469 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28-sources.jar
+2024-09-05 19:14:02,476 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:10.1.28
+2024-09-05 19:14:02,647 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12-sources.jar
+2024-09-05 19:14:02,875 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12-sources.jar
+2024-09-05 19:14:02,880 [Worker-72: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:6.1.12
+2024-09-05 19:14:55,945 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-05 19:14:56,576 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:14:56,577 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:14:56,584 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:19:32,509 [Worker-68: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-05 19:19:33,502 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:19:33,504 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:19:33,518 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:22:12,812 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:22:12,835 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:22:12,853 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:23:15,726 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:23:15,727 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:23:15,730 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:23:23,906 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:23:23,907 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:23:23,911 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:25:00,598 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:00,600 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:00,607 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:25:06,552 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:06,556 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:06,563 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:25:14,466 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:14,469 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:25:14,486 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:33:54,321 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:33:54,341 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:33:54,365 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:34:16,398 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:34:16,400 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:34:16,403 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:35:51,034 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:35:51,044 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:35:51,060 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:37:40,778 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:37:40,852 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:37:40,870 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:38:34,974 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:38:34,988 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:38:35,012 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/elena/code/booting-web/src/test/resources
+2024-09-05 19:38:58,493 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:38:58,513 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:38:58,522 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 19:59:58,166 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 19:59:58,259 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 19:59:58,273 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 20:00:56,306 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 20:00:56,359 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 20:00:56,362 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 20:01:11,538 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 20:01:11,573 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 20:01:11,577 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-05 20:04:41,746 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-05 20:04:41,823 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-05 20:04:41,832 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
