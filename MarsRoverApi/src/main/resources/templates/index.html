@@ -5,5 +5,8 @@
   </head>
   <body>
     <p>HOUSTON, WE'VE HAD A <strong>PROBLEM</strong> HERE</p>
+    
+    <img th:each="photo : ${roverData.photos}" th:src="${photo.imgSrc}"/>
+   
   </body>
 </html>
