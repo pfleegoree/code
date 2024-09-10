@@ -5,8 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
 import com.coderscampus.dto.HomeDto;
 import com.coderscampus.response.MarsRoverApiResponse;
 import com.coderscampus.service.MarsRoverApiService;
@@ -23,14 +21,14 @@ public class HomeController {
   public String getHomeView (ModelMap model, HomeDto homeDto)  {
     // if request param is empty, then set a default value
     if (!StringUtils.hasLength(homeDto.getMarsApiRoverData())) {
-    	homeDto.setMarsApiRoverData("opportunity");
+    	homeDto.setMarsApiRoverData("Opportunity");
     }
     if(homeDto.getMarsSol() == null) {
     	homeDto.setMarsSol(1) ;
     }
     	
     
-    MarsRoverApiResponse roverData = roverService.getRoverData(homeDto.getMarsApiRoverData(), homeDto.getMarsSol());
+    MarsRoverApiResponse roverData = roverService.getRoverData(homeDto);
     model.put("roverData", roverData);
     model.put("homeDto", homeDto);
     
