@@ -14,6 +14,14 @@
           <button type="button" class="btn btn-secondary" id="marsApiOpportunity">Opportunity</button>
           <button type="button" class="btn btn-secondary" id="marsApiSpirit">Spirit</button>
         </div>
+        
+        <div class="fo>tm-group">
+        <label for="marsSol" class="col-form-label col-form-label-lg">Mars Sol (aka Mars Day ):</label> 
+        <input class="form-control form-control-lg" type="number" id="marsSol" name="marsSol" min="0" value="1"/>
+        </div>
+        
+        <button type="submit" class="btn-primary btn-lg">Submit</button>
+        
       </form>
 
       <div th:each="index : ${#numbers.sequence(0,roverData.photos.size(),4)}" class="row" style="margin-bottom: 2em">

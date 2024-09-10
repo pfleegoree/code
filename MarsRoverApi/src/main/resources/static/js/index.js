@@ -15,17 +15,17 @@ function getUrlParameter(name) {
 	return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
 
-let marsRoverType = getUrlParameter("marsApiRoverData")
-
-if (marsRoverType == '')
-	marsRoverType = 'Opportunity'
-
+let marsRoverType = getUrlParameter('marsApiRoverData')
+		
 highlightBtnByRoverType(marsRoverType)
 
-function highlightBtnByRoverType(roverType){
-	document.getElementById('marsApi'+ roverType).classList.remove('btn-secondary')
-	document.getElementById('marsApi'+ roverType).classList.add('btn-primary')
+let marsSol = getUrlParameter('marsSol')
+document.getElementById('marsSol').value = marsSol
+
+function highlightBtnByRoverType (roverType) {
+	if (roverType == '') 
+		roverType = 'Opportunity'
 	
-	
-	
+	document.getElementById('marsApi'+roverType).classList.remove('btn-secondary')
+	document.getElementById('marsApi'+roverType).classList.add('btn-primary')
 }
