@@ -10916,3 +10916,244 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api
 2024-09-09 17:51:45,122 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-09-09 17:51:45,125 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2024-09-09 17:51:45,138 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:09:13,699 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:09:13,708 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:09:13,713 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:10:57,580 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:10:57,583 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:10:57,590 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:14:02,478 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:14:02,492 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:14:02,511 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:15:49,295 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:15:49,298 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:15:49,311 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:16:28,220 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:16:28,222 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:16:28,227 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:16:49,832 [Worker-277: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:16:49,969 [Worker-277: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:16:49,973 [Worker-277: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:17:52,394 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:17:52,444 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:17:52,449 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:18:49,691 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:18:49,766 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:18:49,784 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:19:09,848 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:19:09,976 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:19:09,992 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:23:42,851 [Worker-276: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:23:43,012 [Worker-276: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:23:43,043 [Worker-276: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:29:11,768 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:29:11,776 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:29:11,785 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:29:22,366 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:29:22,367 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:29:22,370 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:33:48,356 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:33:48,597 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:33:48,641 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:35:59,729 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:35:59,814 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:35:59,820 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:38:48,037 [Worker-289: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 18:38:48,049 [Worker-289: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:38:48,058 [Worker-289: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:44:07,963 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:44:08,013 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:44:08,030 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 18:45:06,565 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 18:45:06,592 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 18:45:06,596 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:31:01,244 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:31:01,506 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 21:31:01,523 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:32:07,384 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:32:07,516 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 21:32:07,543 [Worker-302: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:34:40,201 [Worker-303: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:34:40,231 [Worker-303: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 21:34:40,234 [Worker-303: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:38:25,680 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 21:38:25,695 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:38:25,714 [Worker-310: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:41:14,311 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 21:41:14,314 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:41:14,322 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:49:19,226 [Worker-309: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 21:49:19,228 [Worker-309: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:49:19,235 [Worker-309: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:51:18,333 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 21:51:18,346 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:51:18,366 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:56:47,594 [Worker-319: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:56:47,671 [Worker-319: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 21:56:47,677 [Worker-319: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 21:59:36,919 [Worker-322: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 21:59:36,977 [Worker-322: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 21:59:36,992 [Worker-322: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:09:18,978 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:09:19,163 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:09:19,181 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:10:31,832 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:10:31,856 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:10:31,867 [Worker-330: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:13:05,560 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 22:13:05,584 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:13:05,626 [Worker-333: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:17:30,074 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:17:30,332 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:17:30,335 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:19:42,451 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:19:42,561 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:19:42,587 [Worker-331: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:20:04,560 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:20:04,584 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:20:04,595 [Worker-335: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:21:04,107 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:21:04,130 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:21:04,139 [Worker-336: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:24:11,222 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [1271])
+2024-09-09 22:24:11,242 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2024-09-09 22:24:11,247 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/aopalliance-1.0.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/guice-5.1.0.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/httpclient-4.5.14.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/httpcore-4.4.16.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/jansi-2.4.1.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/jcl-over-slf4j-1.7.36.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-artifact-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-builder-support-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-compat-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-core-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-embedder-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-model-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-model-builder-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-plugin-api-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-repository-metadata-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-api-1.9.20.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-connector-basic-1.9.20.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-impl-1.9.20.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-named-locks-1.9.20.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-provider-3.9.7.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-spi-1.9.20.jar
+2024-09-09 22:24:11,248 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-file-1.9.20.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-http-1.9.20.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-transport-wagon-1.9.20.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-resolver-util-1.9.20.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-settings-3.9.7.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-settings-builder-3.9.7.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/maven-shared-utils-3.4.2.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-build-api-0.0.7.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-build-api-1.2.0.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-cipher-2.0.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-classworlds-2.8.0.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-component-annotations-2.1.0.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-interpolation-1.27.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-sec-dispatcher-2.0.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/plexus-utils-3.5.1.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-file-3.5.3.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-http-3.5.3.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-http-shared-3.5.3.jar
+2024-09-09 22:24:11,249 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313/jars/wagon-provider-api-3.5.3.jar
+2024-09-09 22:24:11,253 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [1051])
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/com.google.guava_33.2.0.jre.jar
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1454])
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/slf4j.api_2.0.16.jar
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [32])
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-09-09 22:24:11,255 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [1056])
+2024-09-09 22:24:11,256 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/javax.annotation_1.3.5.v20200909-1856.jar
+2024-09-09 22:24:11,256 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [1058])
+2024-09-09 22:24:11,256 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.cli_1.8.0.jar
+2024-09-09 22:24:11,256 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2024-09-09 22:24:11,257 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.commons-codec_1.16.0.jar
+2024-09-09 22:24:11,257 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [86])
+2024-09-09 22:24:11,259 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/org.apache.commons.lang3_3.14.0.jar
+2024-09-09 22:24:11,259 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [15])
+2024-09-09 22:24:11,260 [Worker-338: Launching MarsRoverApi] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Users/elena/.p2/pool/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-09-09 22:24:11,287 [Worker-338: Launching MarsRoverApi] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/elena/code/MarsRoverApi":
+2024-09-09 22:24:11,300 [Worker-338: Launching MarsRoverApi] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always 
+2024-09-09 22:24:13,982 [Worker-334: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-09 22:24:14,896 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 22:24:14,899 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 22:24:14,910 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:24:17,205 [Worker-338: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:24:17,264 [Worker-338: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:24:17,271 [Worker-338: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:25:44,533 [Worker-334: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderscampus:MarsRoverApi:0.0.1-SNAPSHOT @ /Users/elena/code/MarsRoverApi/pom.xml.
+2024-09-09 22:25:49,292 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 22:25:49,422 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 22:25:49,638 [Worker-334: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:25:51,206 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:25:51,399 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:25:51,440 [Worker-341: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:30:51,883 [Worker-338: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:30:52,079 [Worker-338: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:30:52,096 [Worker-338: Launching New_configuration] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:32:26,500 [Worker-345: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:32:26,551 [Worker-345: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:32:26,557 [Worker-345: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:34:25,164 [Worker-352: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:34:25,325 [Worker-352: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:34:25,356 [Worker-352: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:36:14,278 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:36:14,331 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:36:14,337 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:37:24,182 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:37:24,232 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:37:24,263 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:38:58,132 [Worker-357: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:38:58,146 [Worker-357: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:38:58,151 [Worker-357: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:39:30,820 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:39:30,837 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:39:30,846 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:41:02,848 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:41:02,875 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:41:02,878 [Worker-351: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:46:58,605 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:46:58,810 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:46:58,823 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:51:07,459 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:51:07,609 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:51:07,661 [Worker-362: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:52:04,559 [Worker-363: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:52:04,676 [Worker-363: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:52:04,685 [Worker-363: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:52:15,102 [Worker-361: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:52:15,140 [Worker-361: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:52:15,143 [Worker-361: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:55:01,287 [Worker-367: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:55:01,669 [Worker-367: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:55:01,676 [Worker-367: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:55:07,525 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:55:07,609 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:55:07,611 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:56:36,797 [Worker-358: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:56:36,829 [Worker-358: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:56:36,833 [Worker-358: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:58:27,437 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:58:27,605 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:58:27,622 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 22:58:45,508 [Worker-373: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 22:58:45,806 [Worker-373: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 22:58:45,881 [Worker-373: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 23:00:19,666 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 23:00:19,697 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 23:00:19,701 [Worker-368: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 23:02:05,912 [Worker-374: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 23:02:06,131 [Worker-374: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 23:02:06,136 [Worker-374: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 23:04:13,013 [Worker-380: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 23:04:13,025 [Worker-380: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-09 23:04:13,030 [Worker-380: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 23:05:30,900 [Worker-379: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 23:05:30,903 [Worker-379: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 23:05:30,914 [Worker-379: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-09-09 23:08:35,426 [Worker-381: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-09-09 23:08:35,428 [Worker-381: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-09 23:08:35,435 [Worker-381: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
