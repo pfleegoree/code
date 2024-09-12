@@ -5468,3 +5468,39 @@ END
 
 !ENTRY org.eclipse.lsp4e 1 0 2024-09-12 13:29:41.549
 !MESSAGE [Info]	Typescript Server version info: {version=5.4.5, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-09-12 13:38:51.247
+!MESSAGE [Info]	ESLint server running in node v20.13.1
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-09-12 13:38:51.286
+!MESSAGE [Error]	Unexpected resource file:///Users/elena/code/MarsRoverApi/src/main/java/com/coderscampus/securingweb/WebSecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-09-12 13:38:51.330
+!MESSAGE [Error]	Unexpected resource file:///Users/elena/code/MarsRoverApi/src/main/java/com/coderscampus/securingweb/WebSecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-09-12 13:38:51.344
+!MESSAGE [Error]	Unexpected resource file:///Users/elena/code/MarsRoverApi/src/main/java/com/coderscampus/securingweb/WebSecurityConfig.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.747
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.754
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.757
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.757
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.768
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-12 13:43:17.773
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-12 13:43:40.565
+!MESSAGE Classpath changed for project: MarsRoverApi
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-09-12 13:43:40.893
+!MESSAGE [Info]	ESLint server running in node v20.13.1
