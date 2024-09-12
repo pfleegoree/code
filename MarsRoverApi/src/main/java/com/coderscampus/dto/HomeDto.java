@@ -1,12 +1,16 @@
 package com.coderscampus.dto;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="pars_api_preferences")
+@Table(name="mars_api_preferences")
 public class HomeDto {
+@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
   private Long id;
   private Long userId;
   private String marsApiRoverData;
@@ -23,7 +27,7 @@ public class HomeDto {
   private Boolean rememberPreferences;
   
   
-  @Id
+  
   public Long getId() {
 	return id;
 }
@@ -36,6 +40,8 @@ public Long getUserId() {
   public void setUserId(Long userId) {
     this.userId = userId;
   }
+  
+  @Column(length = 20)
   public String getMarsApiRoverData() {
     return marsApiRoverData;
   }
