@@ -1,9 +1,13 @@
 package com.coderscampus.dto;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name="pars_api_preferences")
 public class HomeDto {
+  private Long id;
   private Long userId;
   private String marsApiRoverData;
   private Integer marsSol;
@@ -18,7 +22,15 @@ public class HomeDto {
   private Boolean cameraMinites;
   private Boolean rememberPreferences;
   
-  public Long getUserId() {
+  
+  @Id
+  public Long getId() {
+	return id;
+}
+public void setId(Long id) {
+	this.id = id;
+}
+public Long getUserId() {
     return userId;
   }
   public void setUserId(Long userId) {
