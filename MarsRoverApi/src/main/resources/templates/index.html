@@ -7,18 +7,16 @@
     <div class="container">
       <h2>Welcome to the Mars Rover API Web App</h2>
       
-      <form method="get" action="" id="frmRoverType"> 
+      <form method="post" action="" id="frmRoverType"> 
         <input type="hidden" th:field="${homeDto.marsApiRoverData}" />
+        <input type="hidden" th:field="${homeDto.userId}"/>
+        
         <div class="btn-group btn-group-lg" role="group" style="margin: 2em 0em;">
           <button type="button" class="btn btn-secondary" id="marsApiCuriosity">Curiosity</button>
           <button type="button" class="btn btn-secondary" id="marsApiOpportunity">Opportunity</button>
           <button type="button" class="btn btn-secondary" id="marsApiSpirit">Spirit</button>
         </div>
-        
-        
-        
-        
-        
+       
          <div class="row">
           <div class="col-12 col-md-4">
             <div class="form-check">
@@ -103,8 +101,15 @@
           <input class="form-control form-control-lg" type="number" th:field="${homeDto.marsSol}" min="0"/> 
         </div>
         
+         <div class="row">
+         <div class="col-3 col-md-2" >
         <button type="submit" class="btn-primary btn-lg">Submit</button>
-        
+        </div>
+        <div class="col-9 col-md-10" style="margin-top: 0.65em">
+        <input type="checkbox" th:field="${homeDto.rememberPreferences}"/>
+		<label for="rememberPreferences1">Remember Preferences</label>
+		</div>
+     </div>
       </form>
 
       <div th:each="index : ${#numbers.sequence(0,roverData.photos.size(),4)}" class="row" style="margin-bottom: 2em">
