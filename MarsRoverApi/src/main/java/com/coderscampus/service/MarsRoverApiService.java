@@ -8,10 +8,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.coderscampus.dto.HomeDto;
+import com.coderscampus.repository.PreferencesRepository;
 import com.coderscampus.response.MarsPhoto;
 import com.coderscampus.response.MarsRoverApiResponse;
 
@@ -20,6 +22,9 @@ public class MarsRoverApiService {
 	private static final String API_KEY = "YTVIrcmEOw34tnI631JY1cflmCaW3sQTmFjkcqVq";
 	
 	private Map<String, List<String>> validCameras = new HashMap<>();
+	
+	@Autowired 
+	  private PreferencesRepository preferencesRepo;
 	
 	public MarsRoverApiService () {
 		validCameras.put("Opportunity", Arrays.asList("FHAZ", "RHAZ", "NAVCAM", "PANCAM", "MINITES"));
@@ -72,6 +77,11 @@ public class MarsRoverApiService {
 
 public Map<String, List<String>> getValidCameras() {
 	return validCameras;
+}
+
+public void save(HomeDto homeDto) {
+	 
+	preferencesRepo.save(homeDto);
 }
 
   
