@@ -79,9 +79,14 @@ public Map<String, List<String>> getValidCameras() {
 	return validCameras;
 }
 
-public void save(HomeDto homeDto) {
+public HomeDto save(HomeDto homeDto) {
 	 
-	preferencesRepo.save(homeDto);
+	return preferencesRepo.save(homeDto);
+}
+
+public HomeDto findByUserId(Long userId) {
+	return preferencesRepo.findByUserId(userId);
+	
 }
 
   
