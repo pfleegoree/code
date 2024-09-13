@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="mars_api_preferences")
 public class HomeDto {
-@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+
   private Long userId;
   private String marsApiRoverData;
   private Integer marsSol;
@@ -32,9 +32,7 @@ public class HomeDto {
   public void setUserId(Long userId) {
     this.userId = userId;
   }
-  
-  
-  @Column(length = 20)
+  @Column(length=20)
   public String getMarsApiRoverData() {
     return marsApiRoverData;
   }
