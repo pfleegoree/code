@@ -11,6 +11,7 @@
         <module name="spring-demo (8)" />
         <module name="spring-demo (5)" />
         <module name="spring-demo (6)" />
+        <module name="Bookstore" />
         <module name="landon-hotel (1)" />
         <module name="spring-demo" />
         <module name="landon-hotel (5)" />
@@ -58,6 +59,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Bookstore" options="-parameters" />
       <module name="explorecali" options="-parameters" />
       <module name="explorecali (1)" options="-parameters" />
       <module name="explorecali (2)" options="-parameters" />
