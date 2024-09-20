@@ -28,19 +28,20 @@
            </ul>
             <!-- Tab panels -->
             <div class="tab-content">
+                <!-- Create a new user pane -->
                 <div class="tab-pane fade" id="tab-1">
                   <div class="panel-group">
                     <div class="panel panel-default" style="border:none;">
                         <div class="panel-body" style="background-color: #ededed; margin-top: 20px;">
                           <form>
                              <div class="form-group">
-                                 <label for="newUsername">* Username</label>
+                                 <label for="newUsername">* Username:</label>
                                  <input required="required" type="text" class="form-control"
                                         id="newUsername" name="username"/>
                                  <p style="color:#828282">Enter your username here.</p>
                              </div>
                               <div class="form-group">
-                                  <label for="email">* Email</label>
+                                  <label for="email">* Email:</label>
                                   <input required="required" type="text" class="form-control"
                                          id="email" name="email"/>
                                   <p style="color:#828282">A valid email address. All emails from
@@ -56,8 +57,55 @@
                     </div>
                 </div>
             </div>
+                <!-- Log in pane -->
+                <div class="tab-pane fade" id="tab-2">
+                    <div class="panel-group">
+                        <div class="panel panel-default" style="border:none;">
+                            <div class="panel-body" style="background-color: #ededed; margin-top: 20px;">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="newUsername">* Username:</label>
+                                        <input required="required" type="text" class="form-control"
+                                               id="newUsername" name="username"/>
+                                        <p style="color:#828282">Enter your username here.</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">* Password:</label>
+                                        <input required="required" type="password" class="form-control"
+                                               id="password" name="password"/>
+                                        <p style="color:#828282">Enter the password for your username
+                                        </p>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Log in</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Forgot password tab -->
+                <div class="tab-pane fade" id="tab-3">
+                    <div class="panel-group">
+                        <div class="panel panel-default" style="border:none;">
+                            <div class="panel-body" style="background-color: #ededed; margin-top: 20px;">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recoverEmail">* You Email:</label>
+                                        <input required="required" type="text" class="form-control"
+                                               id="recoverEmail" name="email"/>
+                                        <p style="color:#828282">Enter your registered email here.</p>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
         </div>
     </div>
+
 </div>
 <!-- end of container -->
 
