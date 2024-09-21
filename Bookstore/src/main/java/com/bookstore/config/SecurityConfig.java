@@ -1,8 +1,12 @@
 package com.bookstore.config;
 
+import com.bookstore.service.impl.UserSecurityService;
 import com.bookstore.utility.SecurityUtility;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.LogoutConfigurer;
@@ -14,15 +18,16 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
+    @Autowired
+    private Environment env;
 
+    @Autowired
+    private UserSecurityService userSecurityService;
 
-    //keep
     private BCryptPasswordEncoder passwordEncoder() {
         return SecurityUtility.passwordEncoder();
     }
 
-
-//keep
     private static final String[] PUBLIC_MATCHERS = {
             "/css/**",
             "/js/**",
@@ -48,6 +53,9 @@ public class SecurityConfig {
         return http.build();
     }
 
-
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userSecurityService).passwordEncoder(passwordEncoder());
+    }
 
 }
