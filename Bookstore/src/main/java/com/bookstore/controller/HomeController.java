@@ -13,21 +13,21 @@ public class HomeController {
     }
 
     @RequestMapping("/login")
-    public String login(Model model){
+    public String login(Model model) {
         model.addAttribute("classActiveLogin", true);
-        return "MyAccount";
+        return "myAccount";
     }
 
     @RequestMapping("/forgetPassword")
     public String forgetPassword(Model model){
         model.addAttribute("classActiveForgetPassword", true);
-        return "MyAccount";
+        return "myAccount";
     }
 
     @RequestMapping("/newUser")
-    public String newUser(Model model){
+    public String newUser(Model model) {
         model.addAttribute("classActiveNewUser", true);
-        return "MyAccount";
+        return "myAccount";
     }
 
 }
