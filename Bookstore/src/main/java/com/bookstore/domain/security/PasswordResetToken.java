@@ -3,7 +3,6 @@ package com.bookstore.domain.security;
 import com.bookstore.domain.User;
 import jakarta.persistence.*;
 
-import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
 
