@@ -10,7 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;  // Use
 import org.springframework.security.web.SecurityFilterChain;  // Defines the security filter chain
 
 import com.bookstore.service.impl.UserSecurityService;  // Custom UserDetailsService implementation
-import com.bookstore.utility.SecurityUtility;  // Custom utility class for security-related functions
+
 
 @Configuration  // Indicates that this class is a Spring configuration class
 @EnableMethodSecurity(prePostEnabled = true)  // Enables method-level security (e.g., @PreAuthorize, @PostAuthorize)
