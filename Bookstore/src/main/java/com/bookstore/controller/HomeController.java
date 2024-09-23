@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
+import java.util.UUID;
 
 @Controller
 public class HomeController {
@@ -85,6 +86,18 @@ public class HomeController {
         Set<UserRole> roles = new HashSet<>();
         userRoles.add(new UserRole(user, role));
         userService.createUser(user, userRoles);
+
+        String token = UUID.randomUUID().toString();
+        userService.createPasswordResetTokenForUser(user, token);
+        String appUrl = "http://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath();
+
+        SimpleMailMessage mail = mailConstructor.constructResetTokenEmail(appUrl, request.getLocale(), token, user, password);
+
+        mailSender.send(email);
+
+        model.addAttribute("emailSent", "true");
+
+        return "myAccount";
 
     }
 
