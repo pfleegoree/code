@@ -6,9 +6,12 @@ import com.bookstore.domain.security.Role;
 import com.bookstore.domain.security.UserRole;
 import com.bookstore.service.impl.UserSecurityService;
 import com.bookstore.service.UserService;
+import com.bookstore.utility.MailConstructor;
 import com.bookstore.utility.SecurityUtility;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -20,13 +23,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
+
+
 
 @Controller
 public class HomeController {
+
+    @Autowired
+    private JavaMailSender mailSender;
+
+    @Autowired
+    private MailConstructor mailConstructor;
+
     @Autowired
     private UserService userService;
     @Autowired
@@ -83,7 +92,7 @@ public class HomeController {
         Role role = new Role();
         role.setRoleId(1);
         role.setName("ROLE_USER");
-        Set<UserRole> roles = new HashSet<>();
+        Set<UserRole> userRoles = new HashSet<>();
         userRoles.add(new UserRole(user, role));
         userService.createUser(user, userRoles);
 
@@ -91,7 +100,7 @@ public class HomeController {
         userService.createPasswordResetTokenForUser(user, token);
         String appUrl = "http://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath();
 
-        SimpleMailMessage mail = mailConstructor.constructResetTokenEmail(appUrl, request.getLocale(), token, user, password);
+        SimpleMailMessage email = mailConstructor.constructResetTokenMail(appUrl, request.getLocale(), token, user, password);
 
         mailSender.send(email);
 
