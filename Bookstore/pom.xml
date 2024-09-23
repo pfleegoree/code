@@ -76,6 +76,10 @@
             <artifactId>spring-security-web</artifactId>
             <version>6.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
