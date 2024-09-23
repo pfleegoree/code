@@ -8,14 +8,14 @@ import java.util.Set;
 @Entity
 public class Role {
     @Id
-    private String roleId;
+    private int roleId;
     private String name;
 
 
     @OneToMany(mappedBy = "role", cascade = CascadeType.ALL, fetch= FetchType.LAZY)
     private Set<UserRole> userRoles = new HashSet<>();
 
-    public String getRoleId() {
+    public int getRoleId() {
         return roleId;
     }
 
