@@ -3,6 +3,9 @@ package com.bookstore.config;  // Package declaration
 import org.springframework.context.annotation.Bean;  // Import for defining Spring Beans
 import org.springframework.context.annotation.Configuration;  // Indicates this class is a configuration class
 import org.springframework.security.authentication.AuthenticationManager;  // Spring Security's Authentication Manager
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;  // Enables method-level security annotations
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;  // Used for configuring HTTP security
 import org.springframework.security.core.userdetails.UserDetailsService;  // Interface for loading user-specific data
@@ -20,6 +23,7 @@ public class SecurityConfig {
 
     // Constructor-based dependency injection for UserSecurityService
     public SecurityConfig(UserSecurityService userSecurityService) {
+
         this.userSecurityService = userSecurityService;
     }
 
@@ -70,8 +74,16 @@ public class SecurityConfig {
 
     // Defines the AuthenticationManager bean, which is used for handling authentication
     @Bean
-    public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
-        return http.getSharedObject(AuthenticationManager.class);  // Retrieves the shared AuthenticationManager instance from HttpSecurity
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
+        return authenticationConfiguration.getAuthenticationManager();
+    }
+
+    @Bean
+    public DaoAuthenticationProvider daoAuthenticationProvider(BCryptPasswordEncoder passwordEncoder, UserDetailsService userDetailsService) {
+        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+        provider.setUserDetailsService(userDetailsService);
+        provider.setPasswordEncoder(passwordEncoder);
+        return provider;
     }
 
     // Defines the UserDetailsService bean, which Spring Security uses to load user data for authentication
