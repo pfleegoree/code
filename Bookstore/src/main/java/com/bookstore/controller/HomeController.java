@@ -100,7 +100,7 @@ public class HomeController {
         userService.createPasswordResetTokenForUser(user, token);
         String appUrl = "http://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath();
 
-        SimpleMailMessage email = mailConstructor.constructResetTokenMail(appUrl, request.getLocale(), token, user, password);
+        SimpleMailMessage email = mailConstructor.constructResetTokenEmail(appUrl, request.getLocale(), token, user, password);
 
         mailSender.send(email);
 
@@ -112,13 +112,10 @@ public class HomeController {
 
 
     @RequestMapping("/newUser")
-    public String newUser(
-            Locale locale,
-            @RequestParam("token") String token,
-            Model model) {
+    public String newUser(Locale locale, @RequestParam("token") String token, Model model) {
         PasswordResetToken passToken = userService.getPasswordResetToken(token);
 
-        if (passToken != null) {
+        if (passToken == null) {
             String message = "Invalid Token.";
             model.addAttribute("message", message);
             return "redirect:/badRequest";
@@ -135,7 +132,6 @@ public class HomeController {
         SecurityContextHolder.getContext().setAuthentication(authentication);
 
         model.addAttribute("user", user);
-
 
         model.addAttribute("classActiveEdit", true);
         return "myProfile";
