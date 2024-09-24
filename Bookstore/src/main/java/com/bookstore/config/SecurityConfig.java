@@ -35,7 +35,8 @@ public class SecurityConfig {
             "/js/**",  // Publicly accessible: JavaScript files
             "/image/**",  // Publicly accessible: Images
             "/",  // Publicly accessible: Root URL
-            "/myAccount"  // Publicly accessible: My Account page
+            "/newUser",
+            "/forgetPassword"
     };
 
     // Defines the security filter chain that configures the application's security settings
