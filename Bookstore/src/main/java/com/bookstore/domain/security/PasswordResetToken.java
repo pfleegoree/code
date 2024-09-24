@@ -1,6 +1,7 @@
 package com.bookstore.domain.security;
 
 import com.bookstore.domain.User;
+import com.bookstore.repository.PasswordResetTokenRepository;
 import jakarta.persistence.*;
 
 import java.util.Calendar;
@@ -21,7 +22,6 @@ public class PasswordResetToken {
     private User user;
 
     private Date expiryDate;
-
 
     public PasswordResetToken(final String token, final User user) {
         super();
