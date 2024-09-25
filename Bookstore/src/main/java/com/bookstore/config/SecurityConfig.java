@@ -1,5 +1,6 @@
 package com.bookstore.config;  // Package declaration
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;  // Import for defining Spring Beans
 import org.springframework.context.annotation.Configuration;  // Indicates this class is a configuration class
 import org.springframework.security.authentication.AuthenticationManager;  // Spring Security's Authentication Manager
@@ -18,7 +19,7 @@ import com.bookstore.service.impl.UserSecurityService;  // Custom UserDetailsSer
 @Configuration  // Indicates that this class is a Spring configuration class
 @EnableMethodSecurity(prePostEnabled = true)  // Enables method-level security (e.g., @PreAuthorize, @PostAuthorize)
 public class SecurityConfig {
-
+    @Autowired
     private final UserSecurityService userSecurityService;  // Injects UserSecurityService to manage user authentication
 
     // Constructor-based dependency injection for UserSecurityService
@@ -40,7 +41,9 @@ public class SecurityConfig {
             "/image/**",  // Publicly accessible: Images
             "/",  // Publicly accessible: Root URL
             "/newUser",
-            "/forgetPassword"
+            "/forgetPassword",
+            "/login",
+            "/fonts/**"
     };
 
     // Defines the security filter chain that configures the application's security settings
