@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService{
     public User findByEmail(String email){
         return userRepository.findByEmail(email);
     }
-
+    @Override
     public User createUser(User user, Set<UserRole> userRoles) throws Exception{
         User localUser = userRepository.findByUsername(user.getUsername());
 
@@ -67,4 +67,11 @@ public class UserServiceImpl implements UserService{
 
         return localUser;
     }
+
+    @Override
+    public User save(User user) {
+        return userRepository.save(user);
+    }
+
+
 }
