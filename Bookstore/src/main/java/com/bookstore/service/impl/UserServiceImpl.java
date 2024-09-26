@@ -8,6 +8,7 @@ import com.bookstore.repository.RoleRepository;
 import com.bookstore.repository.UserRepository;
 import com.bookstore.service.UserService;
 
+import com.bookstore.utility.SecurityUtility;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,8 +39,19 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public void createPasswordResetTokenForUser(final User user, final String token) {
-        final PasswordResetToken myToken = new PasswordResetToken(token, user);
-        passwordResetTokenRepository.save(myToken);
+        // Find an existing token for the user
+        PasswordResetToken existingToken = passwordResetTokenRepository.findByUser(user);
+
+        if (existingToken != null) {
+            existingToken.setToken(token);
+            existingToken.setExpiryDate(PasswordResetToken.calculateExpiryDate(PasswordResetToken.getExpiration()));
+            passwordResetTokenRepository.save(existingToken);
+        } else {
+            PasswordResetToken newToken = new PasswordResetToken(token, user);
+            newToken.setExpiryDate(PasswordResetToken.calculateExpiryDate(PasswordResetToken.getExpiration()));
+            passwordResetTokenRepository.save(newToken);
+        }
+
     }
     @Override
     public User  findByUsername(String username){
