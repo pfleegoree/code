@@ -1,9 +1,6 @@
 package com.adminportal.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import org.springframework.web.multipart.MultipartFile;
 
 public class Book {
@@ -30,6 +27,7 @@ public class Book {
     private String description;
     private int inStockNumber;
 
+    @Transient
     private MultipartFile bookImage;
 
     public Long getId() {
