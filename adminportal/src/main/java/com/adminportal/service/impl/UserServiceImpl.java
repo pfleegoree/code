@@ -14,10 +14,9 @@ import com.adminportal.repository.UserRepository;
 import com.adminportal.service.UserService;
 
 @Service
-public abstract class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
-
     @Autowired
     private UserRepository userRepository;
 
