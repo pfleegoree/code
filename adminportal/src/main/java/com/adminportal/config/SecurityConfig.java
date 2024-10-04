@@ -37,7 +37,6 @@ public class SecurityConfig {
             "/css/**",  // Publicly accessible: CSS files
             "/js/**",  // Publicly accessible: JavaScript files
             "/image/**",  // Publicly accessible: Images
-            "/",  // Publicly accessible: Root URL
             "/newUser",
             "/forgetPassword",
             "/login",
