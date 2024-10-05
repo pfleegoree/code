@@ -5,7 +5,6 @@ import org.springframework.context.annotation.Bean;  // Import for defining Spri
 import org.springframework.context.annotation.Configuration;  // Indicates this class is a configuration class
 import org.springframework.security.authentication.AuthenticationManager;  // Spring Security's Authentication Manager
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;  // Enables method-level security annotations
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;  // Used for configuring HTTP security
