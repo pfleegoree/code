@@ -1,17 +1,18 @@
 package com.adminportal.config;  // Package declaration
 
-import com.adminportal.service.impl.UserSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.context.annotation.Bean;  // Import for defining Spring Beans
+import org.springframework.context.annotation.Configuration;  // Indicates this class is a configuration class
+import org.springframework.security.authentication.AuthenticationManager;  // Spring Security's Authentication Manager
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;  // Enables method-level security annotations
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;  // Used for configuring HTTP security
+import org.springframework.security.core.userdetails.UserDetailsService;  // Interface for loading user-specific data
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;  // Used for encoding passwords using BCrypt
+import org.springframework.security.web.SecurityFilterChain;  // Defines the security filter chain
+
+import com.adminportal.service.impl.UserSecurityService;  // Custom UserDetailsService implementation
 
 
 @Configuration  // Indicates that this class is a Spring configuration class
@@ -40,6 +41,7 @@ public class SecurityConfig {
             "/newUser",
             "/forgetPassword",
             "/login",
+            "/error",
             "/fonts/**"
     };
 
