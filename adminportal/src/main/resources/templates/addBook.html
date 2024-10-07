@@ -73,6 +73,15 @@
           </div>
         </div>
 
+       <!-- pages-->
+        <div class="form-group">
+          <label for="pageNumber">Pages</label>
+          <input
+            type="text" class="form-control" id="pageNumber" th:value="${book.pageNumber}"
+            placeholder="Page Number" />
+          <span class="help-block">Number of pages of the book</span>
+        </div>
+
         <button type="submit" class="btn btn-default">Submit</button>
       </fieldset>
     </form>
