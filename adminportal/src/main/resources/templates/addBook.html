@@ -81,6 +81,39 @@
             placeholder="Page Number" />
           <span class="help-block">Number of pages of the book</span>
         </div>
+        <!-- format-->
+        <div class="form-group">
+          <label class="col-xs-2 control-label" for="format">Format</label>
+          <div class="col-xs-8">
+            <select th:value="${book.format}" id="format" class="form-control">
+              <option value="english">Paperback</option>
+              <option value="spanish">Hardcover</option>
+            </select>
+          </div>
+        </div>
+        <!-- isbn-->
+        <div class="form-group">
+          <label for="isbn">ISBN</label>
+          <input
+                  type="text" class="form-control" id="isbn" th:value="${book.isbn}"
+                  placeholder="ISBN" />
+          <span class="help-block">ISBN of the book</span>
+        </div>
+        <!--shipping weight-->
+        <div class="form-group">
+          <label clas="col-xs-2 control-label" for="shippingWeight">Shipping weight</label>
+          <div class="col-xs-8">
+            <div class="input-group">
+          <input th:value="${book.shippingWeight}"
+                  type="number" class="form-control" id="shippingWeight" th:value="${book.shippingWeight}"
+                  placeholder="Shipping Weight" />
+              <span class="imput-group-addon">Ounces</span>
+          <span class="help-block">Shipping weight of the book</span>
+            </div>
+            <span class="imput-group-addon">Ounces</span>
+          </div>
+        </div>
+
 
         <button type="submit" class="btn btn-default">Submit</button>
       </fieldset>
