@@ -176,37 +176,40 @@
 								active or inactive</span>
           </div>
         </div>
-
-        <!--description-->
+        <!-- description -->
         <div class="form-group">
-          <label clas="col-md-2 control-label" for="description">Description</label>
+          <label class="col-md-2 control-label" for="description">Description</label>
           <div class="col-md-8">
-          <textarea name="description" rows="5" class="form-control"
-                    id="description" th:value="${book.description}"
-                  placeholder="Description" />
+							<textarea name="description" rows="5" class="form-control"
+                                      id="description" th:value="${book.description}"
+                                      placeholder="Description" />
             <span class="help-block">Description of the book</span>
           </div>
         </div>
-        <!--upload image-->
+
+        <!-- upload image -->
         <div class="form-group">
           <div class="col-md-2">
             <label for="bookImage">Upload book image</label>
           </div>
           <div class="col-md-8">
-            <input id="bookImage" type="file" name="bookImage" value="${book.bookImage}"/>
+            <input id="bookImage" type="file" name="bookImage" value="${book.bookImage}" />
           </div>
         </div>
+
         <div class="form-group">
           <div class="col-md-2"></div>
           <div class="col-md-8">
-        <button type="submit" class="btn btn-success">Add Book</button>
-          <a class="btn btn-danger" th:href="@{/}">Cancel</a>
-        </div>
+            <button type="submit" class="btn btn-success">Add Book</button>
+            <a class="btn btn-danger" th:href="@{/}">Cancel</a>
+          </div>
         </div>
       </fieldset>
     </form>
   </div>
 </div>
+
+
 <div th:replace="common/header :: body-bottom-scripts" />
 </body>
 </html>
