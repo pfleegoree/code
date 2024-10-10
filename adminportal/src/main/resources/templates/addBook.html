@@ -126,58 +126,57 @@
             <span class="help-block">Shipping Weight of the book</span>
           </div>
         </div>
-        <!--list price-->
+        <!-- list price -->
         <div class="form-group">
-          <label clas="col-md-2 control-label" for="listPrice">List Price</label>
+          <label class="col-md-2 control-label" for="listPrice">List
+            Price</label>
           <div class="col-md-8">
             <div class="input-group">
-              <span class="input-group-addon">$</span>
-              <input th:value="${book.listPrice}" type="number"
-                     class="form-control" id="listPrice"  name="listPrice"
-                     placeholder="List Price" />
+              <span class="input-group-addon">$</span> <input
+                    th:value="${book.listPrice}" type="number" name="listPrice"
+                    class="form-control" id="listPrice" placeholder="List Price" />
             </div>
-              <span class="help-block">List price of the book</span>
+            <span class="help-block">List price of the book</span>
           </div>
         </div>
-        <!--our price-->
+        <!-- our price -->
         <div class="form-group">
-          <label clas="col-md-2 control-label" for="ourPrice">Our Price</label>
+          <label class="col-md-2 control-label" for="ourPrice">Our
+            Price</label>
           <div class="col-md-8">
             <div class="input-group">
-              <span class="input-group-addon">$</span>
-              <input th:value="${book.ourPrice}" type="number"
-                     class="form-control" id="ourPrice"  name="ourPrice"
-                     placeholder="Our price of the book" />
+              <span class="input-group-addon">$</span> <input
+                    th:value="${book.ourPrice}" type="number" name="ourPrice"
+                    class="form-control" id="ourPrice" placeholder="Our Price" />
             </div>
             <span class="help-block">Our price of the book</span>
           </div>
         </div>
-        <!--in stock number-->
+
+        <!-- in stock number -->
         <div class="form-group">
-          <label clas="col-md-2 control-label" for="inStockNumber">Number in stock</label>
+          <label class="col-md-2 control-label" for="inStockNumber">Number
+            in stock</label>
           <div class="col-md-8">
-            <div class="input-group">
-              <span class="input-group-addon">$</span>
-              <input th:value="${book.inStockNumber}" type="number"
-                     class="form-control" id="inStockNumber"  name="inStockNumber"
-                     placeholder="Number of in-stock copies" />
-            </div>
-            <span class="help-block">Number of in-stock copies</span>
+            <input th:value="${book.inStockNumber}" type="number"
+                   name="inStockNumber" class="form-control" id="inStockNumber"
+                   placeholder="Number of in-stock copies" /> <span
+                  class="help-block">Number of in-stock copies</span>
           </div>
         </div>
-        <!--status of book-->
+
+        <!-- status of book -->
         <div class="form-group">
-          <label clas="col-md-2 control-label" for="status">Status</label>
+          <label class="col-md-2 control-label" for="status">Status</label>
           <div class="col-md-8">
-              <label><input th:value="true" type="radio" name="active"
-                     class="form-control"
-                    />Active</label>
-              <label><input th:value="false" type="radio" name="active"
-                     class="form-control"
-                    />Inactive</label>
-            <span class="help-block">Whether the book is active or inactive</span>
+            <label><input value="true" type="radio" name="active"
+                          checked="checked" /> Active </label> <label><input
+                  value="false" type="radio" name="active" />
+            Inactive </label> <span class="help-block">Whether the book is
+								active or inactive</span>
           </div>
         </div>
+
         <!--description-->
         <div class="form-group">
           <label clas="col-md-2 control-label" for="description">Description</label>
