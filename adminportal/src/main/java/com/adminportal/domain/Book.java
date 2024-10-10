@@ -2,7 +2,7 @@ package com.adminportal.domain;
 
 import jakarta.persistence.*;
 import org.springframework.web.multipart.MultipartFile;
-
+@Entity
 public class Book {
 
    @Id
