@@ -101,19 +101,44 @@
         </div>
         <!--shipping weight-->
         <div class="form-group">
-          <label clas="col-xs-2 control-label" for="shippingWeight">Shipping weight</label>
+          <label clas="col-xs-2 control-label" for="shippingWeight">Shipping
+            Weight</label>
           <div class="col-xs-8">
             <div class="input-group">
-          <input th:value="${book.shippingWeight}"
-                  type="number" class="form-control" id="shippingWeight" th:value="${book.shippingWeight}"
+          <input th:value="${book.shippingWeight}" type="number"
+                 class="form-control" id="shippingWeight"
                   placeholder="Shipping Weight" />
-              <span class="imput-group-addon">Ounces</span>
+              <span class="input-group-addon">Ounces</span>
+            </div>
           <span class="help-block">Shipping weight of the book</span>
             </div>
-            <span class="imput-group-addon">Ounces</span>
+        </div>
+        <!--list price-->
+        <div class="form-group">
+          <label clas="col-xs-2 control-label" for="listPrice">List Price</label>
+          <div class="col-xs-8">
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input th:value="${book.listPrice}" type="number"
+                     class="form-control" id="listPrice"
+                     placeholder="List Price" />
+            </div>
+              <span class="help-block">List price of the book</span>
           </div>
         </div>
-
+        <!--our price-->
+        <div class="form-group">
+          <label clas="col-xs-2 control-label" for="ourPrice">Our Price</label>
+          <div class="col-xs-8">
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input th:value="${book.ourPrice}" type="number"
+                     class="form-control" id="ourPrice"
+                     placeholder="Our Price" />
+            </div>
+            <span class="help-block">Our price of the book</span>
+          </div>
+        </div>
 
         <button type="submit" class="btn btn-default">Submit</button>
       </fieldset>
