@@ -4,10 +4,9 @@ import com.adminportal.domain.Book;
 import com.adminportal.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -23,8 +22,8 @@ public class BookController {
     @Autowired
     private BookService bookService;
 
-    @RequestMapping(value="/add", method= RequestMethod.GET)
-    public String addBook(Model model){
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public String addBook(Model model) {
         Book book = new Book();
         model.addAttribute("book", book);
         return "addBook";
@@ -51,11 +50,8 @@ public class BookController {
     }
 
     @RequestMapping("/bookList")
-    public String bookList(Model model){
+    public String bookList(Model model) {
         /*List<Book> bookList = bookService.findAll();*/
         return "bookList";
-
     }
-
-
 }
