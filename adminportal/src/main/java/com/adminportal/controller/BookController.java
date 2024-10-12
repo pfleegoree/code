@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;  // Update to use Jakarta Servlet API
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 @Controller
 @RequestMapping("/book")
@@ -37,21 +38,28 @@ public class BookController {
 
         try {
             byte[] bytes = bookImage.getBytes();
+            String imagePath = "src/main/resources/static/image/book/";
+            File dir = new File(imagePath);
+
+            // Ensure the directory exists, if not create it
+            if (!dir.exists()) {
+                dir.mkdirs();  // Create directories if they don't exist
+            }
+
             String name = book.getId() + ".png";
             BufferedOutputStream stream = new BufferedOutputStream(
-                    new FileOutputStream(new File("src/main/resources/static/image/book/" + name)));
+                    new FileOutputStream(new File(imagePath + name)));
             stream.write(bytes);
             stream.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return "redirect:bookList";
+        return "redirect:/book/bookList";
     }
 
     @RequestMapping("/bookList")
     public String bookList(Model model) {
-        /*List<Book> bookList = bookService.findAll();*/
         return "bookList";
     }
 }
