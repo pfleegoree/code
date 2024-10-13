@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import java.security.Principal;
 
 
 import java.util.*;
@@ -181,7 +182,7 @@ public class HomeController {
     }
 
     @RequestMapping("/bookDetail")
-    public String bookdetail(Model model) {
+    public String bookdetail(
         @PathParam("id") Long id, Model model, Principal principal
     ){
     if(principal != null){
@@ -189,10 +190,11 @@ public class HomeController {
         User user = userService.findByUsername(username);
         model.addAttribute("user", user);
     }
-    Book book = bookService.findOne(id);
-
-
-        }
+    Optional<Book> book = bookService.findOne(id);
+    model.addAttribute("book", book);
+    List<Integer> qtyList= Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+    model.addAttribute("qtyList", qtyList);
+    model.addAttribute("qty", 1);
 
         return "bookDetail";
     }
