@@ -43,7 +43,8 @@ public class SecurityConfig {
             "/forgetPassword",
             "/login",
             "/fonts/**",
-            "/bookshelf"
+            "/bookshelf",
+            "/bookDetail"
     };
 
     // Defines the security filter chain that configures the application's security settings

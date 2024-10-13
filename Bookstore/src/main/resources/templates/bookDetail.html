@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head th:replace="common/header :: common-header"/>
 
 <body>
@@ -25,7 +26,7 @@
 
 
 	<form th:action="@{/shoppingCart/addItem}" method="post">
-		<input hidden="hidden" th:field="*{book.id}" />
+		<input type="hidden" th:field="*{book.id}" />
 		<div class="row" style="margin-top: 120px;">
 			<div class="col-xs-3">
 				<a th:href="@{/bookshelf}">Back to book list</a><br/>
@@ -61,9 +62,9 @@
 										</select>
 									</div>
 									<div class="col-xs-6">
-										<h4 th:if="*{book.inStockNumber&gt;10}" style="color: green">In Stock</h4>
-										<h4 th:if="*{book.inStockNumber&lt;10 and book.inStockNumber&gt;0}" style="color: green">Only <span th:text="${book.inStockNumber}"> In Stock</span></h4>
-										<h4 th:if="*{book.inStockNumber==0}" style="color:darkred;">Unavailable</h4>
+										<h4 th:if="${book.inStockNumber > 10}" style="color: green">In Stock</h4>
+										<h4 th:if="${book.inStockNumber < 10 and book.inStockNumber > 0}" style="color: green">Only <span th:text="${book.inStockNumber}"> In Stock</span></h4>
+										<h4 th:if="${book.inStockNumber == 0}" style="color:darkred;">Unavailable</h4>
 										<button type="submit" class="btn btn-warning" style="color:black;border:1px solid black; padding: 10px 40px 10px 40px;">Add to Cart</button>
 									</div>
 								</div>
