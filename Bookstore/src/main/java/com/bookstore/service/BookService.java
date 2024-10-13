@@ -8,5 +8,5 @@ import java.util.Optional;
 
 public interface BookService {
     List<Book> findAll();
-    Optional<Book> findOne(Long id);
+    Optional<Book> findById(Long id);
 }
