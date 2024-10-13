@@ -11,6 +11,7 @@ import com.bookstore.service.UserService;
 import com.bookstore.utility.MailConstructor;
 import com.bookstore.utility.SecurityUtility;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -177,6 +178,23 @@ public class HomeController {
         model.addAttribute("bookList", bookList);
 
         return "bookshelf";
+    }
+
+    @RequestMapping("/bookDetail")
+    public String bookdetail(Model model) {
+        @PathParam("id") Long id, Model model, Principal principal
+    ){
+    if(principal != null){
+        String username = principal.getName();
+        User user = userService.findByUsername(username);
+        model.addAttribute("user", user);
+    }
+    Book book = bookService.findOne(id);
+
+
+        }
+
+        return "bookDetail";
     }
 
 }
