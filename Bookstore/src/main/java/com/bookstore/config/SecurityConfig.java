@@ -42,7 +42,8 @@ public class SecurityConfig {
             "/newUser",
             "/forgetPassword",
             "/login",
-            "/fonts/**"
+            "/fonts/**",
+            "/bookshelf"
     };
 
     // Defines the security filter chain that configures the application's security settings
