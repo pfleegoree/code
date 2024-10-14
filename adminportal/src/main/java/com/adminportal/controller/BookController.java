@@ -1,69 +1,72 @@
 package com.adminportal.controller;
 
-import com.adminportal.domain.Book;
-import com.adminportal.service.BookService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.multipart.MultipartFile;
+import com.adminportal.domain.Book;  // Importing Book domain object
+import com.adminportal.service.BookService;  // Importing Book service
+import org.springframework.beans.factory.annotation.Autowired;  // For dependency injection
+import org.springframework.stereotype.Controller;  // Marks this class as a Spring MVC Controller
+import org.springframework.ui.Model;  // Used for adding attributes to the model
+import org.springframework.web.bind.annotation.ModelAttribute;  // Binds form data to model object
+import org.springframework.web.bind.annotation.RequestMapping;  // Maps URL requests to controller methods
+import org.springframework.web.bind.annotation.RequestMethod;  // Defines HTTP methods (GET, POST)
+import org.springframework.web.multipart.MultipartFile;  // For handling file uploads
 
-import jakarta.servlet.http.HttpServletRequest;  // Update to use Jakarta Servlet API
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.List;
+import jakarta.servlet.http.HttpServletRequest;  // Used to access request data (part of Jakarta Servlet API)
+import java.io.BufferedOutputStream;  // Output stream for writing image data
+import java.io.File;  // Represents file and directory paths
+import java.io.FileOutputStream;  // Allows writing to a file
+import java.io.IOException;  // Handles input/output exceptions
+import java.util.List;  // Used for working with collections (list of books)
 
-@Controller
-@RequestMapping("/book")
+@Controller  // Declares this class as a controller to handle web requests
+@RequestMapping("/book")  // Maps requests that start with "/book" to this controller
 public class BookController {
 
-    @Autowired
+    @Autowired  // Injects the BookService bean
     private BookService bookService;
 
+    // Handles GET requests to "/book/add", displays the form for adding a new book
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String addBook(Model model) {
-        Book book = new Book();
-        model.addAttribute("book", book);
-        return "addBook";
+        Book book = new Book();  // Creates an empty book object
+        model.addAttribute("book", book);  // Adds the book object to the model to be used in the form
+        return "addBook";  // Returns the "addBook" view
     }
 
+    // Handles POST requests to "/book/add", saves the book and handles image upload
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public String addBookPost(@ModelAttribute("book") Book book, HttpServletRequest request) {
-        bookService.save(book);
+        bookService.save(book);  // Saves the book object to the database
 
-        MultipartFile bookImage = book.getBookImage();
+        MultipartFile bookImage = book.getBookImage();  // Retrieves the uploaded book image from the form
 
         try {
-            byte[] bytes = bookImage.getBytes();
-            String imagePath = "src/main/resources/static/image/book/";
-            File dir = new File(imagePath);
+            byte[] bytes = bookImage.getBytes();  // Converts the image to a byte array
+            String imagePath = "src/main/resources/static/image/book/";  // Directory to store the book images
+            File dir = new File(imagePath);  // Creates a File object pointing to the directory
 
             // Ensure the directory exists, if not create it
             if (!dir.exists()) {
                 dir.mkdirs();  // Create directories if they don't exist
             }
 
-            String name = book.getId() + ".png";
+            String name = book.getId() + ".png";  // Constructs the image file name using the book ID
             BufferedOutputStream stream = new BufferedOutputStream(
-                    new FileOutputStream(new File(imagePath + name)));
-            stream.write(bytes);
-            stream.close();
+                    new FileOutputStream(new File(imagePath + name)));  // Opens a stream to write the image file
+            stream.write(bytes);  // Writes the image bytes to the file
+            stream.close();  // Closes the stream
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace();  // Handles any file I/O exceptions
         }
 
-        return "redirect:/book/bookList";
+        return "redirect:/book/bookList";  // Redirects to the book list page after saving the book
     }
 
+    // Handles requests to "/book/bookList", retrieves and displays the list of books
     @RequestMapping("/bookList")
     public String bookList(Model model) {
-        List<Book> bookList = bookService.findAll();
-        model.addAttribute("bookList", bookList);
+        List<Book> bookList = bookService.findAll();  // Fetches the list of all books from the service
+        model.addAttribute("bookList", bookList);  // Adds the book list to the model
 
-        return "bookList";
+        return "bookList";  // Returns the "bookList" view
     }
 }
