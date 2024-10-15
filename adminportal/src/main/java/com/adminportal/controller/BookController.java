@@ -2,12 +2,15 @@ package com.adminportal.controller;
 
 import com.adminportal.domain.Book;  // Importing Book domain object
 import com.adminportal.service.BookService;  // Importing Book service
+import jakarta.websocket.server.PathParam;
+import org.hibernate.sql.ast.tree.expression.ModifiedSubQueryExpression;
 import org.springframework.beans.factory.annotation.Autowired;  // For dependency injection
 import org.springframework.stereotype.Controller;  // Marks this class as a Spring MVC Controller
 import org.springframework.ui.Model;  // Used for adding attributes to the model
 import org.springframework.web.bind.annotation.ModelAttribute;  // Binds form data to model object
 import org.springframework.web.bind.annotation.RequestMapping;  // Maps URL requests to controller methods
 import org.springframework.web.bind.annotation.RequestMethod;  // Defines HTTP methods (GET, POST)
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;  // For handling file uploads
 
 import jakarta.servlet.http.HttpServletRequest;  // Used to access request data (part of Jakarta Servlet API)
@@ -16,6 +19,7 @@ import java.io.File;  // Represents file and directory paths
 import java.io.FileOutputStream;  // Allows writing to a file
 import java.io.IOException;  // Handles input/output exceptions
 import java.util.List;  // Used for working with collections (list of books)
+import java.util.Optional;
 
 @Controller  // Declares this class as a controller to handle web requests
 @RequestMapping("/book")  // Maps requests that start with "/book" to this controller
@@ -68,5 +72,27 @@ public class BookController {
         model.addAttribute("bookList", bookList);  // Adds the book list to the model
 
         return "bookList";  // Returns the "bookList" view
+    }
+
+    @RequestMapping("/bookInfo")
+    public String bookInfo(@PathParam("id") Long id, Model model) {
+
+        Optional<Book> bookOptional = bookService.findById(id);
+        if (bookOptional.isPresent()) {
+            model.addAttribute("book", bookOptional.get());  // Unwrap the Optional here
+        } else {
+            return "error/bookNotFound";  // Handle the case where the book is not found
+        }
+        return "bookInfo";
+    }
+
+    @RequestMapping("updateBook")
+    public String updateBook(@RequestParam("id") Long id, Model model){
+        Optional<Book> book = bookService.findById(id);
+        if (book.isPresent()) {
+            model.addAttribute("book", book.get());
+            return "updateBook";
+        }
+        return "error/bookNotFound"; // Handle book not found
     }
 }
