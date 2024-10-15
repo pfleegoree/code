@@ -18,6 +18,8 @@ import java.io.BufferedOutputStream;  // Output stream for writing image data
 import java.io.File;  // Represents file and directory paths
 import java.io.FileOutputStream;  // Allows writing to a file
 import java.io.IOException;  // Handles input/output exceptions
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;  // Used for working with collections (list of books)
 import java.util.Optional;
 
@@ -94,5 +96,37 @@ public class BookController {
             return "updateBook";
         }
         return "error/bookNotFound"; // Handle book not found
+    }
+
+    @RequestMapping(value="/updateBook", method=RequestMethod.POST)   // Call Servlet API from Jakarta EE
+    public String updateBookPost(@ModelAttribute("book") Book book, HttpServletRequest httpServletRequest){
+        bookService.save(book);
+        MultipartFile bookImage = book.getBookImage();
+        if(!bookImage.isEmpty()) {
+            try {
+                byte[] bytes = bookImage.getBytes();  // Converts the image to a byte array
+                String imagePath = "src/main/resources/static/image/book/";  // Directory to store the book images
+                File dir = new File(imagePath);  // Creates a File object pointing to the directory
+
+                // Ensure the directory exists, if not create it
+                if (!dir.exists()) {
+                    dir.mkdirs();  // Create directories if they don't exist
+                }
+
+                String name = book.getId() + ".png";  // Constructs the image file name using the book ID
+                Files.delete(Paths.get(imagePath + name));
+
+                BufferedOutputStream stream = new BufferedOutputStream(
+                        new FileOutputStream(new File(imagePath + name)));  // Opens a stream to write the image file
+                stream.write(bytes);  // Writes the image bytes to the file
+                stream.close();  // Closes the stream
+            } catch (IOException e) {
+                e.printStackTrace();  // Handles any file I/O exceptions
+            }
+
+        }
+
+        return "redirect:/book/bookInfo?id="+book.getId();
+
     }
 }
