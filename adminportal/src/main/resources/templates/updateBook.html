@@ -142,7 +142,7 @@
 							Weight</label>
 						<div class="col-md-8">
 							<div class="input-group">
-								<input th:value="${book.shippingWeight}" type="number"
+								<input th:value="${book.shippingWeight}" type="number" step="0.01"
 									name="shippingWeight" class="form-control" id="shippingWeight"
 									placeholder="Shipping Weight" /> <span
 									class="input-group-addon">Ounces</span>
@@ -158,7 +158,7 @@
 						<div class="col-md-8">
 							<div class="input-group">
 								<span class="input-group-addon">$</span> <input
-									th:value="${book.listPrice}" type="number" name="listPrice"
+									th:value="${book.listPrice}" type="number" name="listPrice" step="0.01"
 									class="form-control" id="listPrice" placeholder="List Price" />
 							</div>
 							<span class="help-block">List price of the book</span>
@@ -172,7 +172,7 @@
 						<div class="col-md-8">
 							<div class="input-group">
 								<span class="input-group-addon">$</span> <input
-									th:value="${book.ourPrice}" type="number" name="ourPrice"
+									th:value="${book.ourPrice}" type="number" name="ourPrice" step="0.01"
 									class="form-control" id="ourPrice" placeholder="Our Price" />
 							</div>
 							<span class="help-block">Our price of the book</span>
@@ -193,15 +193,20 @@
 
 					<!-- status of book -->
 					<div class="form-group">
-						<label class="col-md-2 control-label" for="status">Status</label>
+						<label class="col-md-2 control-label" for="activeTrue">Status</label>
 						<div class="col-md-8">
-							<label><input value="true" type="radio" name="active"
-								checked="checked" /> Active </label> <label><input
-								value="false" type="radio" name="active" />
-								Inactive </label> <span class="help-block">Whether the book is
-								active or inactive</span>
+							<label for="activeTrue">
+								<input id="activeTrue" value="true" type="radio" name="active" checked="checked" />
+								Active
+							</label>
+							<label for="activeFalse">
+								<input id="activeFalse" value="false" type="radio" name="active" />
+								Inactive
+							</label>
+							<span class="help-block">Whether the book is active or inactive</span>
 						</div>
 					</div>
+
 
 					<!-- description -->
 					<div class="form-group">
