@@ -42,6 +42,7 @@ public class SecurityConfig {
             "/forgetPassword",
             "/login",
             "/error",
+            "/updateBook",
             "/fonts/**"
     };
 
