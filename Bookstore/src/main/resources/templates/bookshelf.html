@@ -40,19 +40,39 @@
 									<a th:href="@{/bookDetail?id=}+${book.id}"><img class="img-responsive shelf-book" th:src="#{adminPath}+@{/image/book/}+${book.id}+'.png'"/></a>
 								</div>
 								<div class="col-xs-9">
-									<a th:href="@{/bookDetail?id=}+${book.id}"><h4 th:text="${book.title}"></h4></a>
+									<!-- Link to the book detail page -->
+									<a th:href="@{/bookDetail(id=${book.id})}">
+										<h4 th:text="${book.title}"></h4>
+									</a>
+
+									<!-- Publication date of the book -->
 									<span th:text="${book.publicationDate}"></span>
+
+									<!-- Author of the book -->
 									<p th:text="${book.author}"></p>
-									<a th:href="@{/bookDetail?id=}+${book.id}"><span th:text="${#strings.capitalize(book.format)}"></span></a>
-									<span th:text="${book.numberOfPages}"><span> pages</span></span>
-									<a th:href="@{/bookDetail?id=}+${book.id}"><span style="font-size:x-large;color:#db3208;">$<span
-											th:text="${#numbers.formatDecimal(book.ourPrice, 0 , 'COMMA', 2, 'POINT')}"></span></span></a>
 
+									<!-- Format of the book, capitalized -->
+									<a th:href="@{/bookDetail(id=${book.id})}">
+										<span th:text="${#strings.capitalize(book.format)}"></span>
+									</a>
+
+									<!-- Number of pages -->
+									<span th:text="${book.numberOfPages}"> pages</span><br />
+
+									<!-- Price of the book -->
+									<a th:href="@{/bookDetail(id=${book.id})}">
+        							<span style="font-size:x-large;color:#db3208;">$<span
+									th:text="${#numbers.formatDecimal(book.ourPrice, 0, 'COMMA', 2, 'POINT')}"></span></span>
+									</a>
+
+									<!-- List price (strikethrough) -->
 									<span style="text-decoration: line-through;">$<span
-											th:text="${#numbers.formatDecimal(book.listPrice, 0 , 'COMMA', 2, 'POINT')}"></span></span>
+											th:text="${#numbers.formatDecimal(book.listPrice, 0, 'COMMA', 2, 'POINT')}"></span></span>
 
-									<p th:text="${#strings.abbreviate(book.description, 500)}"></p>
+									<!-- Abbreviated description of the book -->
+									<p th:utext="${#strings.abbreviate(book.description, 500) != '' ? #strings.abbreviate(book.description, 500) : 'No description available.'}"></p>
 								</div>
+
 							</div>
 						</div>
 					</td>
