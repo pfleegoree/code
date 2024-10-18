@@ -21,106 +21,113 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Optional;
 
-@Controller
-@RequestMapping("/book")
+@Controller  // Declares this class as a Spring MVC controller to handle web requests.
+@RequestMapping("/book")  // Maps all requests that start with "/book" to this controller.
 public class BookController {
 
-    @Autowired
+    @Autowired  // Automatically injects the BookService bean to manage book-related operations.
     private BookService bookService;
 
+    // Handles GET requests to "/book/add", displays the form to add a new book.
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String addBook(Model model) {
-        Book book = new Book();
-        model.addAttribute("book", book);
-        return "addBook";
+        Book book = new Book();  // Creates an empty Book object to bind form data.
+        model.addAttribute("book", book);  // Adds the empty Book object to the model for the form.
+        return "addBook";  // Returns the "addBook" view (Thymeleaf template).
     }
 
+    // Handles POST requests to "/book/add", saves the book details and uploads the book image.
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public String addBookPost(@ModelAttribute("book") Book book, HttpServletRequest request) {
-        bookService.save(book);
+        bookService.save(book);  // Saves the book object to the database.
 
-        MultipartFile bookImage = book.getBookImage();
+        MultipartFile bookImage = book.getBookImage();  // Retrieves the uploaded book image from the form.
 
-        if (!bookImage.isEmpty()) {
+        if (!bookImage.isEmpty()) {  // Checks if the image is not empty.
             try {
-                byte[] bytes = bookImage.getBytes();
+                byte[] bytes = bookImage.getBytes();  // Converts the uploaded image into a byte array.
 
-                // Update the directory path to an external location
+                // Specifies the directory path to save the book images.
                 String imagePath = "/Users/elena/code/adminportal/src/main/resources/static/image/book/";
 
-                File dir = new File(imagePath);
+                File dir = new File(imagePath);  // Creates a File object for the directory.
                 if (!dir.exists()) {
-                    dir.mkdirs(); // Create the directory if it doesn't exist
+                    dir.mkdirs();  // Creates the directory if it does not exist.
                 }
 
-                String name = book.getId() + ".png"; // Image file name based on the book's ID
-                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File(imagePath + name)));
-                stream.write(bytes); // Write the image bytes to the file
-                stream.close(); // Close the output stream
+                String name = book.getId() + ".png";  // Constructs the image file name using the book's ID.
+                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File(imagePath + name)));  // Opens a stream to write the image file.
+                stream.write(bytes);  // Writes the image bytes to the file.
+                stream.close();  // Closes the stream after writing the file.
             } catch (IOException e) {
-                e.printStackTrace();
+                e.printStackTrace();  // Handles any file I/O exceptions.
             }
         }
 
-        return "redirect:/book/bookList";
+        return "redirect:/book/bookList";  // Redirects the user to the book list page after saving.
     }
 
+    // Handles requests to "/book/bookList", retrieves and displays a list of all books.
     @RequestMapping("/bookList")
     public String bookList(Model model) {
-        List<Book> bookList = bookService.findAll();
-        model.addAttribute("bookList", bookList);
-        return "bookList";
+        List<Book> bookList = bookService.findAll();  // Fetches all the books from the service.
+        model.addAttribute("bookList", bookList);  // Adds the list of books to the model.
+        return "bookList";  // Returns the "bookList" view (Thymeleaf template).
     }
 
+    // Handles requests to display information about a specific book.
     @RequestMapping("/bookInfo")
     public String bookInfo(@RequestParam("id") Long id, Model model) {
-        Optional<Book> bookOptional = bookService.findById(id);
+        Optional<Book> bookOptional = bookService.findById(id);  // Retrieves the book by its ID.
         if (bookOptional.isPresent()) {
-            model.addAttribute("book", bookOptional.get());
+            model.addAttribute("book", bookOptional.get());  // If the book exists, add it to the model.
         } else {
-            return "error/bookNotFound";
+            return "error/bookNotFound";  // If the book is not found, return an error page.
         }
-        return "bookInfo";
+        return "bookInfo";  // Returns the "bookInfo" view (Thymeleaf template).
     }
 
+    // Handles GET requests to update an existing book.
     @RequestMapping("/updateBook")
     public String updateBook(@RequestParam("id") Long id, Model model) {
-        Optional<Book> book = bookService.findById(id);
+        Optional<Book> book = bookService.findById(id);  // Retrieves the book by its ID.
         if (book.isPresent()) {
-            model.addAttribute("book", book.get());
-            return "updateBook";
+            model.addAttribute("book", book.get());  // If the book exists, add it to the model for editing.
+            return "updateBook";  // Returns the "updateBook" view (Thymeleaf template).
         }
-        return "error/bookNotFound";
+        return "error/bookNotFound";  // If the book is not found, return an error page.
     }
 
+    // Handles POST requests to update the book's details and image.
     @RequestMapping(value = "/updateBook", method = RequestMethod.POST)
     public String updateBookPost(@ModelAttribute("book") Book book, HttpServletRequest request) {
-        bookService.save(book);
-        MultipartFile bookImage = book.getBookImage();
+        bookService.save(book);  // Updates the book object in the database.
 
-        if (!bookImage.isEmpty()) {
+        MultipartFile bookImage = book.getBookImage();  // Retrieves the uploaded book image from the form.
+
+        if (!bookImage.isEmpty()) {  // Checks if the image is not empty.
             try {
-                byte[] bytes = bookImage.getBytes();
+                byte[] bytes = bookImage.getBytes();  // Converts the uploaded image into a byte array.
 
-                // Update the directory path to an external location
+                // Specifies the directory path to save the book images.
                 String imagePath = "/Users/elena/code/adminportal/src/main/resources/static/image/book/";
 
-                File dir = new File(imagePath);
+                File dir = new File(imagePath);  // Creates a File object for the directory.
                 if (!dir.exists()) {
-                    dir.mkdirs(); // Create the directory if it doesn't exist
+                    dir.mkdirs();  // Creates the directory if it does not exist.
                 }
 
-                String name = book.getId() + ".png";
-                Files.deleteIfExists(Paths.get(imagePath + name)); // Delete the old image if it exists
+                String name = book.getId() + ".png";  // Constructs the image file name using the book's ID.
+                Files.deleteIfExists(Paths.get(imagePath + name));  // Deletes the old image file if it exists.
 
-                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File(imagePath + name)));
-                stream.write(bytes); // Write the new image
-                stream.close();
+                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File(imagePath + name)));  // Opens a stream to write the new image file.
+                stream.write(bytes);  // Writes the new image bytes to the file.
+                stream.close();  // Closes the stream after writing the file.
             } catch (IOException e) {
-                e.printStackTrace();
+                e.printStackTrace();  // Handles any file I/O exceptions.
             }
         }
 
-        return "redirect:/book/bookInfo?id=" + book.getId();
+        return "redirect:/book/bookInfo?id=" + book.getId();  // Redirects the user to the book's info page after updating.
     }
 }
