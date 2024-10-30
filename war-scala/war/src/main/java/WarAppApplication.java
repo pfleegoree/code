@@ -31,6 +31,7 @@ public class WarAppApplication {
         // Create new player decks
         Stack<String> player1 = new Stack<>();
         Stack<String> player2 = new Stack<>();
+        Stack<String> warPile = new Stack<>();
 
         // Add cards to player1 and player2 decks
         player1.addAll(playerList1);
@@ -49,6 +50,24 @@ public class WarAppApplication {
         System.out.println("Player card2: " + card2);
         int value2 = Character.getNumericValue(card2.charAt(0));
         System.out.println("Value of card: " + value2);
+
+
+        int count = 3; // Number of items to pop
+
+        if (value1==value2) {
+            for (int i = 0; i < count; i++) {
+                if (!player1.isEmpty()) {
+                    warPile.push(player1.pop());
+                    warPile.push(player2.pop());
+                } else {
+                    System.out.println("Stack is empty!");
+                    break;
+                }
+            }
+        }
+        System.out.println("War Pile: " + warPile);
+
+
         if (value1>value2){
             player1.add(card1);
             player1.add(card2);
