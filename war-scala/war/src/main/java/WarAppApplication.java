@@ -39,5 +39,28 @@ public class WarAppApplication {
         // Print the results
         System.out.println("Player 1's cards: " + player1);
         System.out.println("Player 2's cards: " + player2);
+
+        String card1 = player1.pop();
+        System.out.println("Player card1: " + card1);
+        int value1 = Character.getNumericValue(card1.charAt(0));
+        System.out.println("Value of card: " + value1);
+
+        String card2 = player2.pop();
+        System.out.println("Player card2: " + card2);
+        int value2 = Character.getNumericValue(card2.charAt(0));
+        System.out.println("Value of card: " + value2);
+        if (value1>value2){
+            player1.add(card1);
+            player1.add(card2);
+        }else {
+            player2.add(card1);
+            player2.add(card2);
+        }
+
+        System.out.println("Player 1's cards: " + player1);
+        System.out.println("Player 2's cards: " + player2);
+
+
+
     }
 }
