@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Stack;
 
 public class WarAppApplication {
@@ -7,9 +8,10 @@ public class WarAppApplication {
         Stack<String> stack = new Stack<>();
 
 
-        stack.push("4D");
-        stack.push("8C");
-        stack.push("AS");
+        List<String> list = List.of("AceH", "2H", "3H", "4H", "5H", "6H",
+                                                "AceD", "2D", "3D", "4D", "5D", "6D",
+                                                "AceC", "2C", "3C", "4C", "5C", "6C",
+                                                "AceS", "2S", "3S", "4S", "5S", "6S");
 
         System.out.println("Stack: " +  stack.pop());
 
