@@ -11,6 +11,10 @@ public class WarAppApplication {
         stack.push("8C");
         stack.push("AS");
 
+        System.out.println("Stack: " +  stack.pop());
+
+
+
 
         System.out.println("Stack: " + stack);
     }
